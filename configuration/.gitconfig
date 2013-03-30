@@ -1,0 +1,19 @@
+[color]
+	ui = always
+[user]
+	name = Orien Madgwick
+	email = orien.madgwick@envato.com
+[core]
+	editor = /usr/bin/vim
+	excludesfile = /Users/orien/.gitignore_global
+	autocrlf = input
+[github]
+	user = orien
+[push]
+	default = current
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
