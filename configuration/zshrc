@@ -43,3 +43,5 @@ DEFAULT_USER="orien"
 export CC=/usr/local/bin/gcc-4.2
 
 alias sed=gsed
+
+export LESSOPEN="|/usr/local/bin/lesspipe.sh %s"
