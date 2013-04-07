@@ -9,3 +9,12 @@ From the excellent [dotfiles](http://dotfiles.github.com/) page on GitHub:
 This is my current unix development configuration. I'm working on Mac OS X using iTerm2 with the dark
 [solarized](https://github.com/altercation/solarized/tree/master/iterm2-colors-solarized) color scheme
 and Powerline patched fonts. The majority of tools are configured for developing with Ruby in Vim.
+
+### Clone and Install
+
+The repository includes a no-frills shell script to setup symbolic links to the home directory.
+
+```bash
+git clone --recursive git://github.com/orien/dot-files.git  ~/.dot-files
+~/.dot-files/install.sh
+```
