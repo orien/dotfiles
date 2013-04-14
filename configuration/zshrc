@@ -47,3 +47,7 @@ export CC=$BREW_PREFIX/bin/gcc-4.2
 alias sed=gsed
 
 export LESSOPEN="|$BREW_PREFIX/bin/lesspipe.sh %s"
+
+# Ensure the applications installed via Homebrew are first in the path
+export PATH="$BREW_PREFIX/bin:$PATH"
+
