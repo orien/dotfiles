@@ -38,6 +38,7 @@ source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
 
+# hide username in prompt when running as the default user
 DEFAULT_USER="orien"
 
 BREW_PREFIX=`brew --prefix`
@@ -47,6 +48,7 @@ export CC=$BREW_PREFIX/bin/gcc-4.2
 alias sed=gsed
 alias lessc=$BREW_PREFIX/share/vim/vim73/macros/less.sh
 
+# Enable the lesspipe http://www-zeuthen.desy.de/~friebel/unix/lesspipe.html
 export LESSOPEN="|$BREW_PREFIX/bin/lesspipe.sh %s"
 
 # Ensure the applications installed via Homebrew are first in the path
