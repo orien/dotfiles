@@ -45,6 +45,7 @@ BREW_PREFIX=`brew --prefix`
 export CC=$BREW_PREFIX/bin/gcc-4.2
 
 alias sed=gsed
+alias lessc=$BREW_PREFIX/share/vim/vim73/macros/less.sh
 
 export LESSOPEN="|$BREW_PREFIX/bin/lesspipe.sh %s"
 
