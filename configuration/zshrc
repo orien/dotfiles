@@ -40,8 +40,10 @@ source $ZSH/oh-my-zsh.sh
 
 DEFAULT_USER="orien"
 
-export CC=/usr/local/bin/gcc-4.2
+BREW_PREFIX=`brew --prefix`
+
+export CC=$BREW_PREFIX/bin/gcc-4.2
 
 alias sed=gsed
 
-export LESSOPEN="|/usr/local/bin/lesspipe.sh %s"
+export LESSOPEN="|$BREW_PREFIX/bin/lesspipe.sh %s"
