@@ -34,3 +34,6 @@
 [submodule "configuration/vim/bundle/vim-surround"]
 	path = configuration/vim/bundle/vim-surround
 	url = git://github.com/tpope/vim-surround.git
+[submodule "configuration/vim/bundle/ag"]
+	path = configuration/vim/bundle/ag
+	url = https://github.com/rking/ag.vim
