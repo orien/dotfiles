@@ -32,7 +32,7 @@ DISABLE_AUTO_UPDATE="true"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(lighthouse brew rbenv gem sublime bundler autojump)
+plugins=(lighthouse brew rbenv gem sublime autojump)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -51,7 +51,4 @@ alias lessc=$BREW_PREFIX/share/vim/vim73/macros/less.sh
 
 # Enable the lesspipe http://www-zeuthen.desy.de/~friebel/unix/lesspipe.html
 export LESSOPEN="|$BREW_PREFIX/bin/lesspipe.sh %s"
-
-# Ensure the applications installed via Homebrew are first in the path
-export PATH="$BREW_PREFIX/bin:$PATH"
 
