@@ -40,3 +40,6 @@
 [submodule "configuration/vim/bundle/ctrlp"]
 	path = configuration/vim/bundle/ctrlp
 	url = git://github.com/kien/ctrlp.vim.git
+[submodule "configuration/vim/bundle/vim-commentary"]
+	path = configuration/vim/bundle/vim-commentary
+	url = https://github.com/tpope/vim-commentary.git
