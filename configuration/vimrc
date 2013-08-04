@@ -21,10 +21,11 @@ set incsearch
 set ignorecase
 set smartcase
 
-" powerline HUD
-let g:Powerline_symbols = 'fancy'
-let g:Powerline_theme = 'default'
-let g:Powerline_colorscheme = 'solarized16'
+" airline HUD
+let g:airline_powerline_fonts = 1
+let g:airline_theme = 'solarized'
+let g:airline_enable_branch=1
+let g:airline_detect_modified=1
 
 " solarized colour scheme
 set background=dark
