@@ -1,5 +1,5 @@
 [color]
-	ui = always
+	ui = true
 [user]
 	name = Orien Madgwick
 	email = orien.madgwick@envato.com
