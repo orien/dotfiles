@@ -43,3 +43,6 @@
 [submodule "configuration/vim/bundle/vim-commentary"]
 	path = configuration/vim/bundle/vim-commentary
 	url = https://github.com/tpope/vim-commentary.git
+[submodule "configuration/vim/bundle/vim-airline"]
+	path = configuration/vim/bundle/vim-airline
+	url = https://github.com/bling/vim-airline.git
