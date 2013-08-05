@@ -21,10 +21,10 @@ var twoMonitorsLayout = slate.layout("twoMonitors", {
   "_after_"  : { "operations" : focusITerm },
   "Textual"  : { "operations" : laptopWide },
   "Messages" : { "operations" : laptopWide },
-  "Itsy"     : { "operations" : laptopNarrow }
+  "Tweetbot"     : { "operations" : laptopNarrow }
 });
 
-//slate.bind("1:ctrl", slate.operation("layout", { "name" : twoMonitorsLayout }));
+// slate.bind("1:ctrl", slate.operation("layout", { "name" : twoMonitorsLayout }));
 
 // default the layout so it activates when I plug in my external monitor at work.
 slate.default(["1920x1200","1440x900"], twoMonitorsLayout);
