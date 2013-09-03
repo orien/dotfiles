@@ -46,3 +46,6 @@
 [submodule "configuration/vim/bundle/vim-airline"]
 	path = configuration/vim/bundle/vim-airline
 	url = https://github.com/bling/vim-airline.git
+[submodule "configuration/vim/bundle/vim-bufferline"]
+	path = configuration/vim/bundle/vim-bufferline
+	url = https://github.com/bling/vim-bufferline.git
