@@ -28,6 +28,9 @@ let g:airline_enable_branch = 1
 let g:airline_detect_modified = 1
 "let g:airline#extensions#tabline#enabled = 1
 
+" bufferline
+let g:bufferline_echo=0
+
 " solarized colour scheme
 set background=dark
 let g:solarized_visibility='low'
@@ -46,7 +49,7 @@ set ts=2 sts=2 sw=2 expandtab
 set shell=zsh\ -l
 
 " autocomplete
-autocmd FileType ruby let g:rubycomplete_buffer_loading = 1 
+autocmd FileType ruby let g:rubycomplete_buffer_loading = 1
 autocmd FileType ruby let g:rubycomplete_classes_in_global = 1
 autocmd FileType ruby let g:rubycomplete_rails = 1
 
