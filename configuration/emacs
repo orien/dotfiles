@@ -23,6 +23,7 @@
 		      paredit smartparens
 		      clojure-mode clojure-test-mode clojure-cheatsheet
 		      nrepl nrepl-eval-sexp-fu ac-nrepl
+		      solarized-theme
 		      )
   "A list of packages to check for and install at launch.")
 
@@ -152,3 +153,5 @@
   "\M-q" 'paredit-reindent-defun
   "gK" 'nrepl-src
   "K"  'ac-nrepl-popup-doc)
+
+(load-theme 'solarized-light)
