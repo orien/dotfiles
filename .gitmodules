@@ -1,51 +1,6 @@
 [submodule "configuration/oh-my-zsh"]
 	path = configuration/oh-my-zsh
 	url = git://github.com/robbyrussell/oh-my-zsh.git
-[submodule "configuration/vim/bundle/vim-bundler"]
-	path = configuration/vim/bundle/vim-bundler
-	url = git://github.com/tpope/vim-bundler.git
-[submodule "configuration/vim/bundle/vim-colors-solarized"]
-	path = configuration/vim/bundle/vim-colors-solarized
-	url = git://github.com/altercation/vim-colors-solarized.git
-[submodule "configuration/vim/bundle/vim-endwise"]
-	path = configuration/vim/bundle/vim-endwise
-	url = git://github.com/tpope/vim-endwise.git
-[submodule "configuration/vim/bundle/vim-fugitive"]
-	path = configuration/vim/bundle/vim-fugitive
-	url = git://github.com/tpope/vim-fugitive.git
-[submodule "configuration/vim/bundle/vim-powerline"]
-	path = configuration/vim/bundle/vim-powerline
-	url = git://github.com/Lokaltog/vim-powerline.git
-[submodule "configuration/vim/bundle/vim-rails"]
-	path = configuration/vim/bundle/vim-rails
-	url = git://github.com/tpope/vim-rails.git
-[submodule "configuration/vim/bundle/vim-rake"]
-	path = configuration/vim/bundle/vim-rake
-	url = git://github.com/tpope/vim-rake.git
-[submodule "configuration/vim/bundle/vim-rbenv"]
-	path = configuration/vim/bundle/vim-rbenv
-	url = git://github.com/tpope/vim-rbenv.git
-[submodule "configuration/vim/bundle/vim-ruby"]
-	path = configuration/vim/bundle/vim-ruby
-	url = git://github.com/vim-ruby/vim-ruby.git
-[submodule "configuration/vim/bundle/vim-sensible"]
-	path = configuration/vim/bundle/vim-sensible
-	url = git://github.com/tpope/vim-sensible.git
-[submodule "configuration/vim/bundle/vim-surround"]
-	path = configuration/vim/bundle/vim-surround
-	url = git://github.com/tpope/vim-surround.git
-[submodule "configuration/vim/bundle/ag"]
-	path = configuration/vim/bundle/ag
-	url = https://github.com/rking/ag.vim
-[submodule "configuration/vim/bundle/ctrlp"]
-	path = configuration/vim/bundle/ctrlp
-	url = git://github.com/kien/ctrlp.vim.git
-[submodule "configuration/vim/bundle/vim-commentary"]
-	path = configuration/vim/bundle/vim-commentary
-	url = https://github.com/tpope/vim-commentary.git
-[submodule "configuration/vim/bundle/vim-airline"]
-	path = configuration/vim/bundle/vim-airline
-	url = https://github.com/bling/vim-airline.git
-[submodule "configuration/vim/bundle/vim-bufferline"]
-	path = configuration/vim/bundle/vim-bufferline
-	url = https://github.com/bling/vim-bufferline.git
+[submodule "configuration/vim/bundle/vundle"]
+	path = configuration/vim/bundle/vundle
+	url = https://github.com/gmarik/vundle.git

@@ -1,9 +1,42 @@
 set nocompatible
 set encoding=utf-8
 
-execute pathogen#infect()
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
 
-Helptags
+Bundle 'gmarik/vundle'
+
+Bundle       'rking/ag.vim'
+Bundle        'kien/ctrlp.vim'
+Bundle       'bling/vim-airline'
+Bundle       'tpope/vim-bundler'
+Bundle 'altercation/vim-colors-solarized'
+Bundle       'tpope/vim-commentary'
+Bundle       'tpope/vim-endwise'
+Bundle       'tpope/vim-fugitive'
+Bundle       'tpope/vim-rails'
+Bundle       'tpope/vim-rake'
+Bundle       'tpope/vim-rbenv'
+Bundle    'vim-ruby/vim-ruby'
+Bundle       'tpope/vim-sensible'
+Bundle       'tpope/vim-surround'
+
+" Bundle      'jelera/vim-javascript-syntax'
+" Bundle 'sjbach/lusty'
+" Bundle 'goldfeld/vim-seek'
+" Bundle 'kchmck/vim-coffee-script'
+" Bundle 'tpope/vim-cucumber'
+" Bundle 'tpope/vim-haml'
+" Bundle 'pangloss/vim-javascript'
+" Bundle 'tpope/vim-markdown'
+" Bundle 'mikewest/vimroom'
+" Bundle 'jgdavey/vim-turbux'
+" Bundle 'jpalardy/vim-slime'
+" Bundle 'guns/vim-clojure-static'
+" Bundle 'peterhoeg/vim-tmux'
+" Bundle 'kikijump/tslime.vim'
+" Bundle 'rodjek/vim-puppet'
+
 
 " integrate with the mouse
 set mouse=a
@@ -23,10 +56,9 @@ set smartcase
 
 " airline HUD
 let g:airline_powerline_fonts = 1
-let g:airline_theme = 'solarized'
 let g:airline_enable_branch = 1
 let g:airline_detect_modified = 1
-"let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#enabled = 1
 
 " bufferline
 let g:bufferline_echo=0
