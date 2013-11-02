@@ -48,7 +48,8 @@ set ts=2 sts=2 sw=2 expandtab
 " Use Z Shell with profile
 set shell=zsh\ -l
 
-" autocomplete
+" ruby
+let ruby_no_expensive = 1
 autocmd FileType ruby let g:rubycomplete_buffer_loading = 1
 autocmd FileType ruby let g:rubycomplete_classes_in_global = 1
 autocmd FileType ruby let g:rubycomplete_rails = 1
