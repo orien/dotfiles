@@ -49,3 +49,6 @@
 [submodule "configuration/vim/bundle/vim-bufferline"]
 	path = configuration/vim/bundle/vim-bufferline
 	url = https://github.com/bling/vim-bufferline.git
+[submodule "configuration/vim/bundle/vundle"]
+	path = configuration/vim/bundle/vundle
+	url = https://github.com/gmarik/vundle.git
