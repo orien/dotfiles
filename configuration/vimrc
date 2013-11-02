@@ -14,10 +14,12 @@ Bundle 'altercation/vim-colors-solarized'
 Bundle       'tpope/vim-commentary'
 Bundle       'tpope/vim-endwise'
 Bundle       'tpope/vim-fugitive'
+Bundle      'rodjek/vim-puppet'
 Bundle       'tpope/vim-rails'
 Bundle       'tpope/vim-rake'
 Bundle       'tpope/vim-rbenv'
 Bundle    'vim-ruby/vim-ruby'
+Bundle  'derekwyatt/vim-scala'
 Bundle       'tpope/vim-sensible'
 Bundle       'tpope/vim-surround'
 
@@ -35,7 +37,6 @@ Bundle       'tpope/vim-surround'
 " Bundle 'guns/vim-clojure-static'
 " Bundle 'peterhoeg/vim-tmux'
 " Bundle 'kikijump/tslime.vim'
-" Bundle 'rodjek/vim-puppet'
 
 
 " integrate with the mouse
