@@ -27,16 +27,11 @@ Bundle       'tpope/vim-sensible'
 Bundle       'tpope/vim-surround'
 
 " Bundle      'sjbach/lusty'
-" Bundle    'kikijump/tslime.vim'
-" Bundle    'mikewest/vimroom'
 " Bundle        'guns/vim-clojure-static'
 " Bundle      'kchmck/vim-coffee-script'
 " Bundle       'tpope/vim-haml'
 " Bundle    'pangloss/vim-javascript'
 " Bundle      'jelera/vim-javascript-syntax'
-" Bundle    'jpalardy/vim-slime'
-" Bundle   'peterhoeg/vim-tmux'
-" Bundle     'jgdavey/vim-turbux'
 
 
 " integrate with the mouse
