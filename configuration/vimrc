@@ -8,6 +8,7 @@ Bundle 'gmarik/vundle'
 
 Bundle       'rking/ag.vim'
 Bundle        'kien/ctrlp.vim'
+Bundle    'rizzatti/dash.vim'
 Bundle      'sjbach/lusty'
 Bundle 'jimenezrick/vimerl'
 Bundle       'bling/vim-airline'
