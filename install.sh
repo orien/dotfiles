@@ -5,3 +5,5 @@ for file in $DF_DIR/configuration/*
 do
   ln -sfhv $file ~/.`basename $file`
 done
+
+ln -sfhv $DF_DIR/themes $DF_DIR/repos/oh-my-zsh/custom/themes
