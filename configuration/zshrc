@@ -1,6 +1,6 @@
 #========= Oh My ZSH config =========
 
-ZSH=$HOME/.oh-my-zsh
+ZSH=$HOME/.dot-files/repos/oh-my-zsh
 ZSH_THEME="agnoster"
 DEFAULT_USER="orien"
 DISABLE_AUTO_UPDATE="true"
