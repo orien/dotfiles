@@ -2,39 +2,42 @@ set nocompatible
 set encoding=utf-8
 filetype off
 
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+set rtp+=~/.vim/bundle/Vundle.vim/
+call vundle#begin()
 
-Bundle 'gmarik/vundle'
+Plugin 'gmarik/vundle'
 
-Bundle       'rking/ag.vim'
-Bundle        'kien/ctrlp.vim'
-Bundle    'rizzatti/dash.vim'
-Bundle      'sjbach/lusty'
-Bundle 'jimenezrick/vimerl'
-Bundle       'bling/vim-airline'
-Bundle       'tpope/vim-bundler'
-Bundle       'tpope/vim-classpath'
-Bundle        'guns/vim-clojure-static'
-Bundle      'kchmck/vim-coffee-script'
-Bundle 'altercation/vim-colors-solarized'
-Bundle       'tpope/vim-commentary'
-Bundle       'tpope/vim-cucumber'
-Bundle 'elixir-lang/vim-elixir'
-Bundle       'tpope/vim-endwise'
-Bundle       'tpope/vim-fireplace'
-Bundle       'tpope/vim-fugitive'
-Bundle       'tpope/vim-haml'
-Bundle       'tpope/vim-markdown'
-Bundle      'rodjek/vim-puppet'
-Bundle       'tpope/vim-rails'
-Bundle       'tpope/vim-rake'
-Bundle       'tpope/vim-rbenv'
-Bundle    'vim-ruby/vim-ruby'
-Bundle  'derekwyatt/vim-scala'
-Bundle    'goldfeld/vim-seek'
-Bundle       'tpope/vim-sensible'
-Bundle       'tpope/vim-surround'
+Plugin       'rking/ag.vim'
+Plugin        'kien/ctrlp.vim'
+Plugin    'rizzatti/dash.vim'
+Plugin      'sjbach/lusty'
+Plugin 'jimenezrick/vimerl'
+Plugin       'bling/vim-airline'
+Plugin       'tpope/vim-bundler'
+Plugin       'tpope/vim-classpath'
+Plugin        'guns/vim-clojure-static'
+Plugin      'kchmck/vim-coffee-script'
+Plugin 'altercation/vim-colors-solarized'
+Plugin       'tpope/vim-commentary'
+Plugin       'tpope/vim-cucumber'
+Plugin 'elixir-lang/vim-elixir'
+Plugin       'tpope/vim-endwise'
+Plugin       'tpope/vim-fireplace'
+Plugin       'tpope/vim-fugitive'
+Plugin       'tpope/vim-haml'
+Plugin       'tpope/vim-markdown'
+Plugin      'rodjek/vim-puppet'
+Plugin       'tpope/vim-rails'
+Plugin       'tpope/vim-rake'
+Plugin       'tpope/vim-rbenv'
+Plugin  'thoughtbot/vim-rspec'
+Plugin    'vim-ruby/vim-ruby'
+Plugin  'derekwyatt/vim-scala'
+Plugin    'goldfeld/vim-seek'
+Plugin       'tpope/vim-sensible'
+Plugin       'tpope/vim-surround'
+
+call vundle#end()
 
 set hidden
 
