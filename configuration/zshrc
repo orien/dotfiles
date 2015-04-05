@@ -13,7 +13,7 @@ source $ZSH/oh-my-zsh.sh
 #========= some more jazz =========
 
 # Base16 Shell
-BASE16_SHELL="$HOME/.config/base16-shell/base16-railscasts.dark.sh"
+BASE16_SHELL="$HOME/.dot-files/repos/base16-shell/base16-railscasts.dark.sh"
 [[ -s $BASE16_SHELL ]] && source $BASE16_SHELL
 
 [[ -f /opt/boxen/env.sh ]] && source /opt/boxen/env.sh
