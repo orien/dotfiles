@@ -91,6 +91,7 @@ set shell=zsh\ -l
 
 " ruby
 let ruby_no_expensive = 1
+let g:ruby_indent_access_modifier_style="outdent"
 autocmd FileType ruby let g:rubycomplete_buffer_loading = 1
 autocmd FileType ruby let g:rubycomplete_classes_in_global = 1
 autocmd FileType ruby let g:rubycomplete_rails = 1
