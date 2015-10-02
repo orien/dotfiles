@@ -22,5 +22,5 @@ BREW_PREFIX=`brew --prefix`
 alias lessc=$BREW_PREFIX/share/vim/vim74/macros/less.sh
 export LESSOPEN="|$BREW_PREFIX/bin/lesspipe.sh %s" # Enable the lesspipe http://www-zeuthen.desy.de/~friebel/unix/lesspipe.html
 export PATH="$HOME/bin:$PATH"
-export VAGRANT_DEFAULT_PROVIDER=vmware_fusion
+export VAGRANT_DEFAULT_PROVIDER=virtualbox
 export JAVA_HOME=`/usr/libexec/java_home`
