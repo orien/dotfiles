@@ -26,23 +26,31 @@ values."
      auto-completion
      ;; better-defaults
      clojure
+     colors
+     dash
      elixir
+     elm
      emacs-lisp
      erlang
      git
      github
+     haskell
      javascript
      markdown
      ;; org
      ;; (shell :variables
      ;;        shell-default-height 30
      ;;        shell-default-position 'bottom)
+     osx
+     puppet
+     purescript
      ruby
      ruby-on-rails
      spell-checking
      sql
      syntax-checking
      ;; version-control
+     vagrant
      yaml
      )
    ;; List of additional packages that will be installed without being
