@@ -6,7 +6,7 @@ DEFAULT_USER="orien"
 DISABLE_AUTO_UPDATE="true"
 DISABLE_CORRECTION="true"
 
-plugins=(bundler brew capistrano colored-man-pages docker emacs emoji gem git mix rails rbenv spring vagrant)
+plugins=(bundler brew capistrano colored-man-pages docker emacs emoji gem git mix rails rbenv vagrant)
 
 source $ZSH/oh-my-zsh.sh
 
