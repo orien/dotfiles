@@ -16,5 +16,5 @@ The repository includes a no-frills shell script to setup symbolic links to the 
 
 ```bash
 git clone --recursive git://github.com/orien/dotfiles.git  ~/.dotfiles
-~/.dotfiles/install.sh
+~/.dotfiles/script/setup.sh
 ```
