@@ -15,6 +15,6 @@ and Powerline patched fonts. The majority of tools are configured for developing
 The repository includes a no-frills shell script to setup symbolic links to the home directory.
 
 ```bash
-git clone --recursive git://github.com/orien/dot-files.git  ~/.dot-files
-~/.dot-files/install.sh
+git clone --recursive git://github.com/orien/dotfiles.git  ~/.dotfiles
+~/.dotfiles/install.sh
 ```

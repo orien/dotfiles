@@ -1,6 +1,6 @@
 #========= Oh My ZSH config =========
 
-ZSH=$HOME/.dot-files/repos/oh-my-zsh
+ZSH=$HOME/.dotfiles/repos/oh-my-zsh
 ZSH_THEME="orien"
 DEFAULT_USER="orien"
 DISABLE_AUTO_UPDATE="true"
@@ -13,7 +13,7 @@ source $ZSH/oh-my-zsh.sh
 #========= some more jazz =========
 
 # Base16 Shell
-BASE16_SHELL="$HOME/.dot-files/repos/base16-shell/base16-railscasts.dark.sh"
+BASE16_SHELL="$HOME/.dotfiles/repos/base16-shell/base16-railscasts.dark.sh"
 [[ -s $BASE16_SHELL ]] && source $BASE16_SHELL
 
 export LESSOPEN="|`brew --prefix`/bin/lesspipe.sh %s" # Enable the lesspipe http://www-zeuthen.desy.de/~friebel/unix/lesspipe.html
