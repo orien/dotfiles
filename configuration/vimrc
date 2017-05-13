@@ -13,7 +13,8 @@ Plugin    'rizzatti/dash.vim'
 Plugin      'sjbach/lusty'
 Plugin  'scrooloose/nerdtree'
 Plugin   'godlygeek/tabular'
-Plugin       'bling/vim-airline'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
 Plugin       'tpope/vim-bundler'
 Plugin       'tpope/vim-characterize'
 Plugin 'altercation/vim-colors-solarized'
@@ -67,6 +68,7 @@ let g:bufferline_echo=0
 set background=dark
 let base16colorspace=256
 colorscheme base16-railscasts
+let g:airline_theme='base16_default'
 
 " change cursor in insert mode (iterm2)
 autocmd InsertEnter * set cul
