@@ -52,6 +52,7 @@ values."
            ruby-version-manager 'rbenv-use
            ruby-test-runner 'rspec)
      ruby-on-rails
+     rust
      shell-scripts
      spell-checking
      sql
