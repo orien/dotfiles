@@ -15,6 +15,7 @@ brew 'zsh'
 
 cask 'alfred'
 cask 'aws-vault'
+cask 'docker'
 cask 'dropbox'
 cask 'flux'
 cask 'google-chrome'
