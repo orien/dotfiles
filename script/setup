@@ -1,8 +1,8 @@
 #!/bin/sh
-DF_DIR=`dirname "$0"`
-DF_DIR=`( cd "$DF_DIR/.." && pwd )`
-for file in $DF_DIR/configuration/*
-do
+cd `dirname "$0"`/..
+DF_DIR=`pwd`
+git submodule init && git submodule update
+for file in $DF_DIR/configuration/*; do
   ln -sfhv $file ~/.`basename $file`
 done
 
