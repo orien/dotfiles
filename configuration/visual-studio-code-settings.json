@@ -1,0 +1,18 @@
+{
+    "editor.fontSize": 16,
+    "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
+    "editor.renderWhitespace": "boundary",
+    "editor.tabSize": 2,
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "search.exclude": {
+        "**/.bundle": true,
+        "**/vendor": true,
+        "**/node_modules": true,
+        "**/bower_components": true
+    },
+    "workbench.colorTheme": "Monokai Dimmed",
+    "workbench.sideBar.location": "left",
+    "vim.disableAnnoyingNeovimMessage": true,
+    "window.zoomLevel": 0
+}
