@@ -59,7 +59,7 @@ cask 'java'
 brew 'maven'
 
 # Encryption tools
-cask 'gpgtools'
+brew 'gpg2'
 cask 'keybase'
 
 cask 'datagrip'
