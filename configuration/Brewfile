@@ -46,8 +46,6 @@ cask 'grammarly'
 cask 'imageoptim'
 cask 'iTerm2'
 cask 'karabiner-elements'
-cask 'psequel'
-cask 'sequel-pro'
 cask 'shortcat'
 cask 'slack'
 cask 'sourcetree'
@@ -63,4 +61,6 @@ brew 'maven'
 # Encryption tools
 cask 'gpgtools'
 cask 'keybase'
+
+cask 'datagrip'
 
