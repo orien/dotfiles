@@ -6,7 +6,7 @@ DEFAULT_USER="orien"
 DISABLE_AUTO_UPDATE="true"
 DISABLE_CORRECTION="true"
 
-plugins=(bundler brew colored-man-pages docker emacs emoji gem git rails rbenv nodenv)
+plugins=(bundler brew colored-man-pages docker emacs emoji gem git rails rbenv nodenv zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 

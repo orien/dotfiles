@@ -10,3 +10,6 @@
 [submodule "repos/spacemacs"]
 	path = repos/spacemacs
 	url = https://github.com/syl20bnr/spacemacs.git
+[submodule "repos/zsh-syntax-highlighting"]
+	path = repos/zsh-syntax-highlighting
+	url = https://github.com/zsh-users/zsh-syntax-highlighting.git
