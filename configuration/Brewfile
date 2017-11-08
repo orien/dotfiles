@@ -53,7 +53,7 @@ cask 'sourcetree'
 cask 'visual-studio-code'
 
 # Web Browsers
-cask 'firefox-beta'
+cask 'firefoxdeveloperedition'
 cask 'google-chrome'
 
 # Ruby Ecosystem
