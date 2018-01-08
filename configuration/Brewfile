@@ -69,3 +69,5 @@ cask 'keybase'
 
 cask 'datagrip'
 
+tap 'caskroom/drivers'
+cask 'logitech-control-center'
