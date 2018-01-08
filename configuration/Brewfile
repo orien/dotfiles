@@ -60,7 +60,7 @@ cask 'google-chrome'
 brew 'rbenv'
 
 # Java Ecosystem
-cask 'java'
+cask 'java8'
 brew 'maven'
 
 # Encryption tools
