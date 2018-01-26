@@ -15,7 +15,6 @@ brew 'dos2unix'
 brew 'gist'
 brew 'git'
 brew 'gnu-tar'
-brew 'go'
 brew 'graphviz'
 brew 'hub'
 brew 'iamy'
@@ -55,6 +54,10 @@ cask 'visual-studio-code'
 # Web Browsers
 cask 'firefoxdeveloperedition'
 cask 'google-chrome'
+
+# Go Ecosystem
+brew 'go'
+brew 'dep'
 
 # Ruby Ecosystem
 brew 'rbenv'
