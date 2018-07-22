@@ -7,7 +7,6 @@ call minpac#init()
 
 call minpac#add('k-takata/minpac', {'type': 'opt'})
 
-call minpac#add('rking/ag.vim')
 call minpac#add('rizzatti/dash.vim')
 call minpac#add('junegunn/fzf')
 call minpac#add('sjbach/lusty')
