@@ -8,8 +8,8 @@ call minpac#init()
 call minpac#add('k-takata/minpac', {'type': 'opt'})
 
 call minpac#add('rking/ag.vim')
-call minpac#add('kien/ctrlp.vim')
 call minpac#add('rizzatti/dash.vim')
+call minpac#add('junegunn/fzf')
 call minpac#add('sjbach/lusty')
 call minpac#add('scrooloose/nerdtree')
 call minpac#add('godlygeek/tabular')
@@ -93,3 +93,5 @@ map <Leader>s :call RunNearestSpec()<CR>
 map <Leader>l :call RunLastSpec()<CR>
 map <Leader>a :call RunAllSpecs()<CR>
 let g:rspec_command = "!spring rspec -fd {spec}"
+
+nnoremap <C-p> :<C-u>FZF<CR>
