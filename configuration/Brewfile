@@ -66,7 +66,7 @@ brew 'dep'
 brew 'rbenv'
 
 # Java Ecosystem
-cask 'java8'
+cask 'java'
 brew 'maven'
 
 # Encryption tools
