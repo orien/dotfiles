@@ -39,16 +39,23 @@ values."
      ivy
      auto-completion
      ;; better-defaults
+     clojure
      colors
      csv
      dash
+     elixir
+     elm
      emacs-lisp
+     erlang
      git
      github
+     go
+     haskell
      html
      javascript
      markdown
      nginx
+     ocaml
      ;; org
      ;; (shell :variables
      ;;        shell-default-height 30
@@ -58,10 +65,13 @@ values."
            ruby-version-manager 'rbenv-use
            ruby-test-runner 'rspec)
      ruby-on-rails
+     rust
+     scheme
      shell-scripts
      spell-checking
      sql
      syntax-checking
+     typescript
      ;; version-control
      yaml
      )
@@ -339,7 +349,7 @@ you should place your code here."
    ["#0a0814" "#f2241f" "#67b11d" "#b1951d" "#4f97d7" "#a31db1" "#28def0" "#b2b2b2"])
  '(package-selected-packages
    (quote
-    (insert-shebang fish-mode company-shell yaml-mode web-mode web-beautify tagedit sql-indent smeargle slim-mode scss-mode sass-mode rvm ruby-tools ruby-test-mode rubocop rspec-mode robe reveal-in-osx-finder rbenv rainbow-mode rainbow-identifiers pug-mode projectile-rails rake inflections pbcopy osx-trash osx-dictionary orgit nginx-mode mmm-mode minitest markdown-toc markdown-mode magit-gitflow magit-gh-pulls livid-mode skewer-mode simple-httpd launchctl json-mode json-snatcher json-reformat js2-refactor multiple-cursors js2-mode js-doc haml-mode gitignore-mode github-search github-clone github-browse-file gitconfig-mode gitattributes-mode git-timemachine git-messenger git-link gist gh marshal logito pcache ht gh-md fuzzy flyspell-correct-ivy flyspell-correct flycheck-pos-tip pos-tip flycheck feature-mode evil-magit magit magit-popup git-commit ghub treepy graphql with-editor emmet-mode dash-at-point csv-mode counsel-dash helm-dash company-web web-completion-data company-tern dash-functional tern company-statistics company color-identifiers-mode coffee-mode chruby bundler inf-ruby auto-yasnippet yasnippet auto-dictionary ac-ispell auto-complete ws-butler winum which-key wgrep volatile-highlights vi-tilde-fringe uuidgen use-package toc-org spaceline powerline smex restart-emacs request rainbow-delimiters popwin persp-mode pcre2el paradox spinner org-plus-contrib org-bullets open-junk-file neotree move-text macrostep lorem-ipsum linum-relative link-hint ivy-hydra indent-guide hydra hungry-delete hl-todo highlight-parentheses highlight-numbers parent-mode highlight-indentation helm-make helm helm-core google-translate golden-ratio flx-ido flx fill-column-indicator fancy-battery eyebrowse expand-region exec-path-from-shell evil-visualstar evil-visual-mark-mode evil-unimpaired evil-tutor evil-surround evil-search-highlight-persist evil-numbers evil-nerd-commenter evil-mc evil-matchit evil-lisp-state smartparens evil-indent-plus evil-iedit-state iedit evil-exchange evil-escape evil-ediff evil-args evil-anzu anzu evil goto-chg undo-tree eval-sexp-fu highlight elisp-slime-nav dumb-jump popup f dash s diminish define-word counsel-projectile projectile pkg-info epl counsel swiper ivy column-enforce-mode clean-aindent-mode bind-map bind-key auto-highlight-symbol auto-compile packed async aggressive-indent adaptive-wrap ace-window ace-link avy))))
+    (utop tuareg caml toml-mode tide typescript-mode racer ocp-indent ob-elixir merlin intero hlint-refactor hindent haskell-snippets go-guru go-eldoc geiser flycheck-rust flycheck-mix flycheck-haskell flycheck-elm flycheck-credo erlang elm-mode company-go go-mode company-ghci company-ghc ghc haskell-mode company-cabal cmm-mode clojure-snippets clj-refactor edn paredit peg cider-eval-sexp-fu cider sesman queue clojure-mode cargo rust-mode alchemist elixir-mode insert-shebang fish-mode company-shell yaml-mode web-mode web-beautify tagedit sql-indent smeargle slim-mode scss-mode sass-mode rvm ruby-tools ruby-test-mode rubocop rspec-mode robe reveal-in-osx-finder rbenv rainbow-mode rainbow-identifiers pug-mode projectile-rails rake inflections pbcopy osx-trash osx-dictionary orgit nginx-mode mmm-mode minitest markdown-toc markdown-mode magit-gitflow magit-gh-pulls livid-mode skewer-mode simple-httpd launchctl json-mode json-snatcher json-reformat js2-refactor multiple-cursors js2-mode js-doc haml-mode gitignore-mode github-search github-clone github-browse-file gitconfig-mode gitattributes-mode git-timemachine git-messenger git-link gist gh marshal logito pcache ht gh-md fuzzy flyspell-correct-ivy flyspell-correct flycheck-pos-tip pos-tip flycheck feature-mode evil-magit magit magit-popup git-commit ghub treepy graphql with-editor emmet-mode dash-at-point csv-mode counsel-dash helm-dash company-web web-completion-data company-tern dash-functional tern company-statistics company color-identifiers-mode coffee-mode chruby bundler inf-ruby auto-yasnippet yasnippet auto-dictionary ac-ispell auto-complete ws-butler winum which-key wgrep volatile-highlights vi-tilde-fringe uuidgen use-package toc-org spaceline powerline smex restart-emacs request rainbow-delimiters popwin persp-mode pcre2el paradox spinner org-plus-contrib org-bullets open-junk-file neotree move-text macrostep lorem-ipsum linum-relative link-hint ivy-hydra indent-guide hydra hungry-delete hl-todo highlight-parentheses highlight-numbers parent-mode highlight-indentation helm-make helm helm-core google-translate golden-ratio flx-ido flx fill-column-indicator fancy-battery eyebrowse expand-region exec-path-from-shell evil-visualstar evil-visual-mark-mode evil-unimpaired evil-tutor evil-surround evil-search-highlight-persist evil-numbers evil-nerd-commenter evil-mc evil-matchit evil-lisp-state smartparens evil-indent-plus evil-iedit-state iedit evil-exchange evil-escape evil-ediff evil-args evil-anzu anzu evil goto-chg undo-tree eval-sexp-fu highlight elisp-slime-nav dumb-jump popup f dash s diminish define-word counsel-projectile projectile pkg-info epl counsel swiper ivy column-enforce-mode clean-aindent-mode bind-map bind-key auto-highlight-symbol auto-compile packed async aggressive-indent adaptive-wrap ace-window ace-link avy))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
