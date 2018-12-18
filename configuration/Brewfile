@@ -64,7 +64,6 @@ cask 'google-chrome'
 
 # Go Ecosystem
 brew 'go'
-brew 'dep'
 
 # Ruby Ecosystem
 brew 'rbenv'
