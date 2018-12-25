@@ -80,9 +80,11 @@ brew 'python'
 
 # Documentation and Diagramming
 brew 'graphviz'
+brew 'imagemagick'
 brew 'ispell'
 brew 'pandoc'
 brew 'plantuml'
+brew 'svgcleaner'
 
 # Encryption tools
 brew 'gpg2'
