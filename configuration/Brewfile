@@ -1,7 +1,6 @@
 tap 'homebrew/cask-versions'
 
 brew 'dos2unix'
-cask 'imageoptim'
 
 # Communications
 cask 'muzzle'
