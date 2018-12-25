@@ -6,7 +6,6 @@ brew 'git'
 brew 'hub'
 brew 'pidof'
 brew 'pv'
-brew 'python'
 
 cask 'alfred'
 cask 'dash'
@@ -76,6 +75,9 @@ brew 'rbenv'
 # Java Ecosystem
 cask 'java'
 brew 'maven'
+
+# Python Ecosystem
+brew 'python'
 
 # Documentation and Diagramming
 brew 'graphviz'
