@@ -1,4 +1,4 @@
-tap 'caskroom/versions'
+tap 'homebrew/cask-versions'
 
 # tap 'railwaycat/emacsmacport'
 # cask "railwaycat/emacsmacport/emacs-mac"
