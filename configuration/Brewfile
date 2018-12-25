@@ -1,8 +1,6 @@
 tap 'homebrew/cask-versions'
 
 brew 'dos2unix'
-brew 'pidof'
-brew 'pv'
 
 cask 'alfred'
 cask 'dash'
@@ -10,7 +8,6 @@ cask 'docker'
 cask 'dropbox'
 cask 'flux'
 cask 'imageoptim'
-cask 'iTerm2'
 cask 'karabiner-elements' # I like to map the caps lock key to escape
 cask 'shortcat'
 
@@ -19,8 +16,11 @@ cask 'muzzle'
 cask 'slack'
 cask 'zoomus'
 
-# Shells
+# Shells, CLI, process management
 brew 'dash'
+cask 'iTerm2'
+brew 'pidof'
+brew 'pv'
 brew 'zsh'
 
 # Text Search
