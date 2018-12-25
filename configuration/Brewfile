@@ -1,7 +1,6 @@
 tap 'homebrew/cask-versions'
 
 brew 'dos2unix'
-cask 'flux'
 cask 'imageoptim'
 
 # Communications
