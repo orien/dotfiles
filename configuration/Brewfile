@@ -16,12 +16,10 @@ brew 'git'
 brew 'gnu-tar'
 brew 'haskell-stack'
 brew 'hub'
-brew 'ispell'
 brew 'lesspipe'
 brew 'libxml2'
 brew 'nginx'
 brew 'nodenv'
-brew 'pandoc'
 brew 'pidof'
 brew 'pv'
 brew 'python'
@@ -76,8 +74,10 @@ brew 'rbenv'
 cask 'java'
 brew 'maven'
 
-# Diagramming
+# Documentation and Diagramming
 brew 'graphviz'
+brew 'ispell'
+brew 'pandoc'
 brew 'plantuml'
 
 # Encryption tools
