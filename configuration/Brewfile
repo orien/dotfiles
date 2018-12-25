@@ -19,10 +19,13 @@ cask 'flux'
 cask 'imageoptim'
 cask 'iTerm2'
 cask 'karabiner-elements' # I like to map the caps lock key to escape
-cask 'muzzle'
 cask 'shortcat'
-cask 'slack'
 cask 'sourcetree'
+
+# Communications
+cask 'muzzle'
+cask 'slack'
+cask 'zoomus'
 
 # Shells
 brew 'dash'
