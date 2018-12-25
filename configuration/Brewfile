@@ -51,7 +51,7 @@ cask 'flux'
 cask 'grammarly'
 cask 'imageoptim'
 cask 'iTerm2'
-cask 'karabiner-elements'
+cask 'karabiner-elements' # I like to map the caps lock key to escape
 cask 'shortcat'
 cask 'slack'
 cask 'sourcetree'
