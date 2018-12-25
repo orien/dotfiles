@@ -2,14 +2,10 @@ tap 'homebrew/cask-versions'
 
 brew 'dos2unix'
 
-cask 'alfred'
-cask 'dash'
 cask 'docker'
 cask 'dropbox'
 cask 'flux'
 cask 'imageoptim'
-cask 'karabiner-elements' # I like to map the caps lock key to escape
-cask 'shortcat'
 
 # Communications
 cask 'muzzle'
@@ -117,3 +113,9 @@ cask 'font-source-code-pro'
 # Continuous Integration
 tap 'sj26/git-buildkite'
 brew 'sj26/git-buildkite/git-buildkite'
+
+# Keyboard Interface
+cask 'alfred'
+cask 'dash'
+cask 'karabiner-elements' # I like to map the caps lock key to escape
+cask 'shortcat'
