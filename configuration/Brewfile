@@ -40,12 +40,12 @@ brew 'packer'
 brew 'chromedriver'
 brew 'elm'
 brew 'libxml2'
-brew 'nginx'
+brew 'nginx', restart_service: true
 brew 'nodenv'
 
 # Networking
 brew 'curl'
-brew 'dnsmasq'
+brew 'dnsmasq', restart_service: true
 brew 'nmap'
 brew 'wget'
 
