@@ -6,7 +6,7 @@ DEFAULT_USER="orien"
 DISABLE_AUTO_UPDATE="true"
 DISABLE_CORRECTION="true"
 
-plugins=(bundler brew colored-man-pages docker emacs emoji gem git rbenv nodenv vscode zsh-syntax-highlighting)
+plugins=(aws bundler brew colored-man-pages docker emacs emoji gem git rbenv nodenv vscode zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
