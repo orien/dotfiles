@@ -10,7 +10,6 @@ brew 'hub'
 brew 'pidof'
 brew 'pv'
 brew 'python'
-brew 'sqlite'
 
 cask 'alfred'
 cask 'dash'
@@ -88,8 +87,9 @@ brew 'plantuml'
 brew 'gpg2'
 cask 'keybase'
 
-# SQL
+# Databases
 cask 'datagrip'
+brew 'sqlite'
 
 # Editors
 tap 'railwaycat/emacsmacport'
