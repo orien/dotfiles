@@ -1,9 +1,6 @@
 tap 'homebrew/cask-versions'
 
 brew 'dos2unix'
-
-cask 'docker'
-cask 'dropbox'
 cask 'flux'
 cask 'imageoptim'
 
@@ -35,6 +32,7 @@ cask 'sourcetree'
 # AWS and Infrastructure
 cask 'aws-vault'
 brew 'awscli'
+cask 'docker'
 brew 'iamy'
 brew 'packer'
 
@@ -51,7 +49,8 @@ brew 'dnsmasq'
 brew 'nmap'
 brew 'wget'
 
-# Archiving and Compression
+# Backup, Archiving and Compression
+cask 'dropbox'
 brew 'gnu-tar'
 brew 'unrar'
 
