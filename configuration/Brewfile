@@ -3,12 +3,9 @@ tap 'homebrew/cask-versions'
 # tap 'sj26/git-buildkite'
 # brew 'sj26/git-buildkite/git-buildkite'
 
-brew 'cabal-install'
 brew 'dos2unix'
-brew 'ghc'
 brew 'gist'
 brew 'git'
-brew 'haskell-stack'
 brew 'hub'
 brew 'pidof'
 brew 'pv'
@@ -68,6 +65,11 @@ cask 'vivaldi'
 
 # Go Ecosystem
 brew 'go'
+
+# Haskell Ecosystem
+brew 'cabal-install'
+brew 'ghc'
+brew 'haskell-stack'
 
 # Ruby Ecosystem
 brew 'rbenv'
