@@ -31,6 +31,8 @@ cask 'sourcetree'
 cask 'aws-vault'
 brew 'awscli'
 cask 'docker'
+tap 'heroku/brew'
+brew 'heroku/brew/heroku'
 brew 'iamy'
 brew 'packer'
 
