@@ -13,7 +13,6 @@ brew 'fzf'
 brew 'ghc'
 brew 'gist'
 brew 'git'
-brew 'gnu-tar'
 brew 'haskell-stack'
 brew 'hub'
 brew 'lesspipe'
@@ -25,7 +24,6 @@ brew 'pv'
 brew 'python'
 brew 'ripgrep'
 brew 'sqlite'
-brew 'unrar'
 brew 'zsh'
 
 cask 'alfred'
@@ -58,6 +56,10 @@ brew 'curl'
 brew 'dnsmasq'
 brew 'nmap'
 brew 'wget'
+
+# Archiving and Compression
+brew 'gnu-tar'
+brew 'unrar'
 
 # Web Browsers
 cask 'firefoxdeveloperedition'
