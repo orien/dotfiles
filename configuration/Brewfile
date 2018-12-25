@@ -32,12 +32,6 @@ cask 'sourcetree'
 brew 'dash'
 brew 'zsh'
 
-# Editors
-tap 'railwaycat/emacsmacport'
-cask 'railwaycat/emacsmacport/emacs-mac'
-brew 'vim'
-cask 'visual-studio-code'
-
 # Text Search
 brew 'ctags'
 brew 'fzf'
@@ -94,6 +88,12 @@ cask 'keybase'
 
 # SQL
 cask 'datagrip'
+
+# Editors
+tap 'railwaycat/emacsmacport'
+cask 'railwaycat/emacsmacport/emacs-mac'
+brew 'vim'
+cask 'visual-studio-code'
 
 # Drivers
 tap 'homebrew/cask-drivers'
