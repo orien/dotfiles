@@ -83,3 +83,8 @@ cask 'datagrip'
 # Drivers
 tap 'homebrew/cask-drivers'
 cask 'logitech-control-center'
+
+# Fonts
+tap 'homebrew/cask-fonts'
+cask 'font-inconsolata'
+cask 'font-source-code-pro'
