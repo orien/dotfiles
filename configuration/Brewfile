@@ -1,8 +1,5 @@
 tap 'homebrew/cask-versions'
 
-# tap 'railwaycat/emacsmacport'
-# cask "railwaycat/emacsmacport/emacs-mac"
-
 # tap 'sj26/git-buildkite'
 # brew 'sj26/git-buildkite/git-buildkite'
 
@@ -34,7 +31,6 @@ brew 'python'
 brew 'ripgrep'
 brew 'sqlite'
 brew 'unrar'
-brew 'vim'
 brew 'wget'
 brew 'zsh'
 
@@ -50,6 +46,11 @@ cask 'muzzle'
 cask 'shortcat'
 cask 'slack'
 cask 'sourcetree'
+
+# Editors
+tap 'railwaycat/emacsmacport'
+cask 'railwaycat/emacsmacport/emacs-mac'
+brew 'vim'
 cask 'visual-studio-code'
 
 # AWS and Infrastructure
