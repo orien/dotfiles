@@ -3,20 +3,16 @@ tap 'homebrew/cask-versions'
 # tap 'sj26/git-buildkite'
 # brew 'sj26/git-buildkite/git-buildkite'
 
-brew 'ctags'
 brew 'cabal-install'
 brew 'dos2unix'
-brew 'fzf'
 brew 'ghc'
 brew 'gist'
 brew 'git'
 brew 'haskell-stack'
 brew 'hub'
-brew 'lesspipe'
 brew 'pidof'
 brew 'pv'
 brew 'python'
-brew 'ripgrep'
 brew 'sqlite'
 
 cask 'alfred'
@@ -41,6 +37,12 @@ tap 'railwaycat/emacsmacport'
 cask 'railwaycat/emacsmacport/emacs-mac'
 brew 'vim'
 cask 'visual-studio-code'
+
+# Text Search
+brew 'ctags'
+brew 'fzf'
+brew 'lesspipe'
+brew 'ripgrep'
 
 # AWS and Infrastructure
 cask 'aws-vault'
