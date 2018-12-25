@@ -19,7 +19,6 @@ brew 'ghc'
 brew 'gist'
 brew 'git'
 brew 'gnu-tar'
-brew 'graphviz'
 brew 'haskell-stack'
 brew 'hub'
 brew 'ispell'
@@ -73,6 +72,9 @@ brew 'rbenv'
 # Java Ecosystem
 cask 'java'
 brew 'maven'
+
+# Diagramming
+brew 'graphviz'
 brew 'plantuml'
 
 # Encryption tools
