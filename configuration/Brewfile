@@ -6,7 +6,6 @@ tap 'homebrew/cask-versions'
 # tap 'sj26/git-buildkite'
 # brew 'sj26/git-buildkite/git-buildkite'
 
-brew 'awscli'
 brew 'chromedriver'
 brew 'ctags'
 brew 'cabal-install'
@@ -23,14 +22,12 @@ brew 'gnu-tar'
 brew 'graphviz'
 brew 'haskell-stack'
 brew 'hub'
-brew 'iamy'
 brew 'ispell'
 brew 'lesspipe'
 brew 'libxml2'
 brew 'nginx'
 brew 'nmap'
 brew 'nodenv'
-brew 'packer'
 brew 'pandoc'
 brew 'pidof'
 brew 'pv'
@@ -43,7 +40,6 @@ brew 'wget'
 brew 'zsh'
 
 cask 'alfred'
-cask 'aws-vault'
 cask 'dash'
 cask 'docker'
 cask 'dropbox'
@@ -57,6 +53,12 @@ cask 'shortcat'
 cask 'slack'
 cask 'sourcetree'
 cask 'visual-studio-code'
+
+# AWS and Infrastructure
+cask 'aws-vault'
+brew 'awscli'
+brew 'iamy'
+brew 'packer'
 
 # Web Browsers
 cask 'firefoxdeveloperedition'
@@ -78,6 +80,7 @@ brew 'plantuml'
 brew 'gpg2'
 cask 'keybase'
 
+# SQL
 cask 'datagrip'
 
 # Drivers
