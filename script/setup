@@ -1,14 +1,16 @@
-#!/bin/sh
-cd `dirname "$0"`/..
-DF_DIR=`pwd`
+#!/usr/bin/env bash
+set -euo pipefail
+
+cd "$(dirname "$0")/.."
+DF_DIR=$(pwd)
 git submodule init && git submodule update
-for file in $DF_DIR/configuration/*; do
-  ln -sfhv $file ~/.`basename $file`
+for file in "$DF_DIR"/configuration/*; do
+  ln -sfhv "$file" "$HOME/.$(basename "$file")"
 done
 
-rm -r $DF_DIR/repos/oh-my-zsh/custom/*
-ln -sfhv $DF_DIR/plugins $DF_DIR/repos/oh-my-zsh/custom/plugins
-ln -sfhv $DF_DIR/themes $DF_DIR/repos/oh-my-zsh/custom/themes
+rm -r "$DF_DIR"/repos/oh-my-zsh/custom/*
+ln -sfhv "$DF_DIR/plugins" "$DF_DIR/repos/oh-my-zsh/custom/plugins"
+ln -sfhv "$DF_DIR/themes" "$DF_DIR/repos/oh-my-zsh/custom/themes"
 
 mkdir -p ~/Library/Application\ Support/Code/User
 ln -sfhv ~/.visual-studio-code-settings.json ~/Library/Application\ Support/Code/User/settings.json

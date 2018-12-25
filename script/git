@@ -1,4 +1,5 @@
-#!/bin/sh
+#!/usr/bin/env bash
+set -euo pipefail
 
 git config --global user.name 'Orien Madgwick'
 git config --global user.email '_@orien.io'
@@ -9,7 +10,7 @@ git config --global core.excludesfile ~/.gitignore_global
 git config --global push.default current
 
 # set up diff-highlight
-git config --global core.pager "`brew --prefix git`/share/git-core/contrib/diff-highlight/diff-highlight | less"
+git config --global core.pager "$(brew --prefix git)/share/git-core/contrib/diff-highlight/diff-highlight | less"
 git config --global color.diff-highlight.oldNormal    'red bold'
 git config --global color.diff-highlight.oldHighlight 'red bold 52'
 git config --global color.diff-highlight.newNormal    'green bold'
