@@ -11,9 +11,37 @@
         "**/node_modules": true,
         "**/bower_components": true
     },
-    "workbench.colorTheme": "Monokai Dimmed",
+    "workbench.colorTheme": "Spacemacs - dark",
     "workbench.sideBar.location": "left",
-    "vim.disableAnnoyingNeovimMessage": true,
     "window.zoomLevel": 0,
-    "extensions.ignoreRecommendations": false
+    "extensions.ignoreRecommendations": false,
+    "ruby.lint": {
+        "reek": true,
+        "rubocop": true,
+        "ruby": true,
+        "fasterer": true,
+        "debride": true,
+        "ruby-lint": false
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "gitlens.advanced.messages": {
+        "suppressCommitHasNoPreviousCommitWarning": false,
+        "suppressCommitNotFoundWarning": false,
+        "suppressFileNotUnderSourceControlWarning": false,
+        "suppressGitVersionWarning": false,
+        "suppressLineUncommittedWarning": false,
+        "suppressNoRepositoryWarning": false,
+        "suppressResultsExplorerNotice": false,
+        "suppressShowKeyBindingsNotice": true,
+        "suppressUpdateNotice": false,
+        "suppressWelcomeNotice": true
+    },
+    "explorer.confirmDelete": false,
+    "gitlens.keymap": "chorded",
+    "gitlens.historyExplorer.enabled": true,
+    "ruby.codeCompletion": "rcodetools",
+    "ruby.format": "rubocop",
+    "ruby.useLanguageServer": true,
+    "gitlens.views.fileHistory.enabled": true,
+    "gitlens.views.lineHistory.enabled": true,
 }
