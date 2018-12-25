@@ -44,7 +44,6 @@ brew 'zsh'
 
 cask 'alfred'
 cask 'aws-vault'
-cask 'cyberduck'
 cask 'dash'
 cask 'docker'
 cask 'dropbox'
