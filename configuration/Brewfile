@@ -1,9 +1,6 @@
 tap 'homebrew/cask-versions'
 
 brew 'dos2unix'
-brew 'gist'
-brew 'git'
-brew 'hub'
 brew 'pidof'
 brew 'pv'
 
@@ -16,7 +13,6 @@ cask 'imageoptim'
 cask 'iTerm2'
 cask 'karabiner-elements' # I like to map the caps lock key to escape
 cask 'shortcat'
-cask 'sourcetree'
 
 # Communications
 cask 'muzzle'
@@ -32,6 +28,13 @@ brew 'ctags'
 brew 'fzf'
 brew 'lesspipe'
 brew 'ripgrep'
+
+# Github and SCM
+cask 'fork'
+brew 'gist'
+brew 'git'
+brew 'hub'
+cask 'sourcetree'
 
 # AWS and Infrastructure
 cask 'aws-vault'
