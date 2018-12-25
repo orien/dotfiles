@@ -11,11 +11,10 @@ git submodule init
 git submodule update
 
 stow_home zsh
-stow_home macos
+stow_home --no-folding macos
 stow_home git
 stow_home vim
 stow_home spacemacs
 stow_home ruby
-stow_home --no-folding vscode
 
 vim '+call minpac#update()' +quitall
