@@ -44,7 +44,6 @@ cask 'dash'
 cask 'docker'
 cask 'dropbox'
 cask 'flux'
-cask 'grammarly'
 cask 'imageoptim'
 cask 'iTerm2'
 cask 'karabiner-elements' # I like to map the caps lock key to escape
