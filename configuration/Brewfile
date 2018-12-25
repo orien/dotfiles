@@ -1,8 +1,5 @@
 tap 'homebrew/cask-versions'
 
-# tap 'sj26/git-buildkite'
-# brew 'sj26/git-buildkite/git-buildkite'
-
 brew 'dos2unix'
 brew 'gist'
 brew 'git'
@@ -108,3 +105,7 @@ cask 'logitech-control-center'
 tap 'homebrew/cask-fonts'
 cask 'font-inconsolata'
 cask 'font-source-code-pro'
+
+# Continuous Integration
+tap 'sj26/git-buildkite'
+brew 'sj26/git-buildkite/git-buildkite'
