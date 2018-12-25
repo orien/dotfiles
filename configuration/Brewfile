@@ -61,6 +61,7 @@ cask 'visual-studio-code'
 # Web Browsers
 cask 'firefoxdeveloperedition'
 cask 'google-chrome'
+cask 'vivaldi'
 
 # Go Ecosystem
 brew 'go'
