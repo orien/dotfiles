@@ -1,6 +1,7 @@
 tap 'homebrew/cask-versions'
 
 brew 'dos2unix'
+brew 'stow'
 
 # Communications
 cask 'muzzle'
