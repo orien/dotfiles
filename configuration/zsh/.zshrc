@@ -18,7 +18,6 @@ BASE16_SHELL="$HOME/.dotfiles/repos/base16-shell"
 base16_railscasts
 
 export LESSOPEN="|$(brew --prefix)/bin/lesspipe.sh %s" # Enable the lesspipe http://www-zeuthen.desy.de/~friebel/unix/lesspipe.html
-export JAVA_HOME="$(/usr/libexec/java_home)"
 
 alias lilypond='/Applications/LilyPond.app/Contents/Resources/bin/lilypond'
 alias lilypond-book='/Applications/LilyPond.app/Contents/Resources/bin/lilypond-book'
