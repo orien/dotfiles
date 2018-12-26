@@ -20,8 +20,6 @@ base16_railscasts
 export LESSOPEN="|$(brew --prefix)/bin/lesspipe.sh %s" # Enable the lesspipe http://www-zeuthen.desy.de/~friebel/unix/lesspipe.html
 export JAVA_HOME="$(/usr/libexec/java_home)"
 
-export PATH="$(brew --prefix mysql@5.6)/bin:$PATH"
-
 alias lilypond='/Applications/LilyPond.app/Contents/Resources/bin/lilypond'
 alias lilypond-book='/Applications/LilyPond.app/Contents/Resources/bin/lilypond-book'
 alias convert-ly='/Applications/LilyPond.app/Contents/Resources/bin/convert-ly'
