@@ -1,6 +1,6 @@
 #========= Oh My ZSH config =========
 
-ZSH=$HOME/.dotfiles/repos/oh-my-zsh
+ZSH="$HOME/.dotfiles/repos/oh-my-zsh"
 ZSH_THEME="orien"
 DEFAULT_USER="orien"
 DISABLE_AUTO_UPDATE="true"
@@ -8,7 +8,7 @@ DISABLE_CORRECTION="true"
 
 plugins=(aws bundler colored-man-pages docker docker-compose golang emacs emoji gem git rbenv nodenv vscode zsh-syntax-highlighting)
 
-source $ZSH/oh-my-zsh.sh
+source "$ZSH/oh-my-zsh.sh"
 
 #========= some more jazz =========
 
@@ -17,8 +17,8 @@ BASE16_SHELL="$HOME/.dotfiles/repos/base16-shell"
 [ -n "$PS1" ] && [ -s $BASE16_SHELL/profile_helper.sh ] && eval "$($BASE16_SHELL/profile_helper.sh)"
 base16_railscasts
 
-export LESSOPEN="|`brew --prefix`/bin/lesspipe.sh %s" # Enable the lesspipe http://www-zeuthen.desy.de/~friebel/unix/lesspipe.html
-export JAVA_HOME=`/usr/libexec/java_home`
+export LESSOPEN="|$(brew --prefix)/bin/lesspipe.sh %s" # Enable the lesspipe http://www-zeuthen.desy.de/~friebel/unix/lesspipe.html
+export JAVA_HOME="$(/usr/libexec/java_home)"
 
 export PATH="$(brew --prefix mysql@5.6)/bin:$PATH"
 
