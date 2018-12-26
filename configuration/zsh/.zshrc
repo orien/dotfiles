@@ -27,5 +27,3 @@ alias convert-ly='/Applications/LilyPond.app/Contents/Resources/bin/convert-ly'
 #export EDITOR='/Applications/Emacs.app/Contents/MacOS/bin/emacsclient'
 alias emacs='/Applications/Emacs.app/Contents/MacOS/bin/emacsclient --no-wait'
 alias e='emacs'
-
-export FZF_DEFAULT_COMMAND='rg --files'
