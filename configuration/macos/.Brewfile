@@ -1,4 +1,5 @@
 tap 'homebrew/cask-versions'
+brew 'mas'
 
 brew 'dos2unix'
 brew 'stow'
@@ -6,7 +7,8 @@ brew 'stow'
 # Communications
 cask 'muzzle'
 cask 'slack'
-cask 'zoomus'
+mas 'Textual 7', id: 1262957439
+# cask 'zoomus'
 
 # Shells, CLI, process management
 brew 'dash'
@@ -87,7 +89,8 @@ brew 'pandoc'
 brew 'plantuml'
 brew 'svgcleaner'
 
-# Encryption tools
+# Security and Encryption tools
+mas '1Password 7', id: 1333542190
 brew 'gpg2'
 cask 'keybase'
 
@@ -118,8 +121,9 @@ cask 'font-source-code-pro'
 tap 'sj26/git-buildkite'
 brew 'sj26/git-buildkite/git-buildkite'
 
-# Keyboard Interface
+# Productivity and Niceties
 cask 'alfred'
 cask 'dash'
 cask 'karabiner-elements' # I like to map the caps lock key to escape
 cask 'shortcat'
+mas 'Things 3', id: 904280696
