@@ -10,6 +10,15 @@ cd "$(dirname "$0")/.."
 git submodule init
 git submodule update
 
+which -s stow || {
+  if (which -s brew); then
+    brew install stow
+  else
+    echo "Missing GNU stow; please install it then re-run $0"
+    exit 1
+  fi
+}
+
 stow_home zsh
 stow_home --no-folding macos
 stow_home git
