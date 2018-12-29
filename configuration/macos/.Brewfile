@@ -40,7 +40,7 @@ brew 'iamy'
 brew 'packer'
 
 # Web Development
-brew 'chromedriver'
+cask 'chromedriver'
 brew 'elm'
 brew 'libxml2'
 brew 'nginx', restart_service: true
@@ -59,7 +59,7 @@ brew 'gnu-tar'
 brew 'unrar'
 
 # Web Browsers
-cask 'firefoxdeveloperedition'
+cask 'firefox-developer-edition'
 cask 'google-chrome'
 cask 'vivaldi'
 
