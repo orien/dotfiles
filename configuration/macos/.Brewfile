@@ -81,6 +81,9 @@ brew 'maven'
 # Python Ecosystem
 brew 'python'
 
+# Rust Ecosystem
+brew 'rustup-init'
+
 # Documentation and Diagramming
 brew 'graphviz'
 brew 'imagemagick'
