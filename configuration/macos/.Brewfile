@@ -121,8 +121,8 @@ cask 'font-inconsolata'
 cask 'font-source-code-pro'
 
 # Continuous Integration
-tap 'sj26/git-buildkite'
-brew 'sj26/git-buildkite/git-buildkite'
+tap 'buildkite/cli'
+brew 'bk'
 
 # Productivity and Niceties
 cask 'alfred'
