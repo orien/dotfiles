@@ -12,6 +12,8 @@ mas 'Textual 7', id: 1262957439
 
 # Shells, CLI, process management
 brew 'dash'
+brew 'findutils'
+brew 'gnu-sed'
 cask 'iTerm2'
 brew 'pidof'
 brew 'pv'
