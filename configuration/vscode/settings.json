@@ -38,10 +38,7 @@
     },
     "explorer.confirmDelete": false,
     "gitlens.keymap": "chorded",
-    "gitlens.historyExplorer.enabled": true,
-    "ruby.codeCompletion": "rcodetools",
     "ruby.format": "rubocop",
-    "ruby.useLanguageServer": true,
     "gitlens.views.fileHistory.enabled": true,
     "gitlens.views.lineHistory.enabled": true,
 }
