@@ -17,8 +17,8 @@
     "extensions.ignoreRecommendations": false,
     "ruby.lint": {
         "reek": true,
-        "rubocop": true,
-        "ruby": true,
+        "rubocop": false,
+        "ruby": false,
         "fasterer": true,
         "debride": true,
         "ruby-lint": false
