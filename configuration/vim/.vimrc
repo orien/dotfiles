@@ -63,9 +63,9 @@ let g:airline#extensions#tabline#enabled = 1
 let g:bufferline_echo=0
 
 " colour scheme
-set background=dark
+" set background=dark
 let base16colorspace=256
-colorscheme base16-railscasts
+" colorscheme base16-railscasts
 let g:airline_theme='base16_default'
 
 " change cursor in insert mode (iterm2)
@@ -82,7 +82,7 @@ set shell=zsh\ -l
 
 " ruby
 let ruby_no_expensive = 1
-let g:ruby_indent_access_modifier_style="outdent"
+" let g:ruby_indent_access_modifier_style="outdent"
 autocmd FileType ruby let g:rubycomplete_buffer_loading = 1
 autocmd FileType ruby let g:rubycomplete_classes_in_global = 1
 autocmd FileType ruby let g:rubycomplete_rails = 1
