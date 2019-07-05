@@ -1,5 +1,4 @@
 {
-    "editor.fontSize": 18,
     "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
     "editor.renderWhitespace": "boundary",
     "editor.tabSize": 2,
@@ -11,7 +10,7 @@
         "**/node_modules": true,
         "**/bower_components": true
     },
-    "workbench.colorTheme": "Spacemacs - dark",
+    "workbench.colorTheme": "Solarized Dark",
     "workbench.sideBar.location": "left",
     "window.zoomLevel": 0,
     "extensions.ignoreRecommendations": false,
