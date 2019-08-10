@@ -11,6 +11,7 @@ mas 'Textual 7', id: 1262957439
 # cask 'zoomus'
 
 # Shells, CLI, process management
+brew 'bat'
 brew 'dash'
 brew 'findutils'
 brew 'gnu-sed'
