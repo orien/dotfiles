@@ -30,6 +30,7 @@ brew 'ripgrep'
 cask 'fork'
 brew 'gist'
 brew 'git'
+cask 'github'
 brew 'hub'
 cask 'sourcetree'
 
