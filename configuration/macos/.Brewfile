@@ -32,7 +32,6 @@ brew 'gist'
 brew 'git'
 cask 'github'
 brew 'hub'
-cask 'sourcetree'
 
 # AWS and Infrastructure
 cask 'aws-vault'

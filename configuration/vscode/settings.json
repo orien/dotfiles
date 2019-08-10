@@ -41,4 +41,5 @@
     "gitlens.views.fileHistory.enabled": true,
     "gitlens.views.lineHistory.enabled": true,
     "terminal.external.osxExec": "iTerm.app",
+    "editor.renderControlCharacters": true,
 }
