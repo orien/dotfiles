@@ -24,6 +24,6 @@ stow_home --no-folding macos
 stow_home git
 stow_home vim
 stow_home spacemacs
-stow_home ruby
+stow_home lang
 
 vim '+call minpac#update()' +quitall
