@@ -11,6 +11,7 @@ mas 'Textual 7', id: 1262957439
 # cask 'zoomus'
 
 # Shells, CLI, process management
+brew 'asdf'
 brew 'bat'
 brew 'dash'
 brew 'findutils'
@@ -47,7 +48,6 @@ cask 'chromedriver'
 brew 'elm'
 brew 'libxml2'
 brew 'nginx', restart_service: true
-brew 'nodenv'
 
 # Networking
 brew 'curl'
@@ -73,9 +73,6 @@ brew 'go'
 brew 'cabal-install'
 brew 'ghc'
 brew 'haskell-stack'
-
-# Ruby Ecosystem
-brew 'rbenv'
 
 # Java Ecosystem
 cask 'java'
