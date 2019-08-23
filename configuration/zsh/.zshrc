@@ -6,7 +6,23 @@ DEFAULT_USER="orien"
 DISABLE_AUTO_UPDATE="true"
 DISABLE_CORRECTION="true"
 
-plugins=(aws brew bundler colored-man-pages docker docker-compose golang emoji gem git rust npm vscode zsh-syntax-highlighting asdf)
+plugins=(
+  asdf
+  aws
+  brew
+  bundler
+  colored-man-pages
+  docker
+  docker-compose
+  golang
+  emoji
+  gem
+  git
+  rust
+  npm
+  vscode
+  zsh-syntax-highlighting
+)
 
 source "$ZSH/oh-my-zsh.sh"
 
