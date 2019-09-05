@@ -2,6 +2,7 @@ tap 'homebrew/cask-versions'
 brew 'mas'
 
 brew 'dos2unix'
+brew 'jq'
 brew 'stow'
 
 # Communications
