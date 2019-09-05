@@ -14,6 +14,7 @@ plugins=(
   colored-man-pages
   docker
   docker-compose
+  fzf
   golang
   emoji
   gem
