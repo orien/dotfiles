@@ -63,6 +63,7 @@ brew 'gnu-tar'
 brew 'unrar'
 
 # Web Browsers
+cask 'brave-browser'
 cask 'firefox-developer-edition'
 cask 'google-chrome'
 cask 'vivaldi'
