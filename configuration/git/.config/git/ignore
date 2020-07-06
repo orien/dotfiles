@@ -8,3 +8,4 @@
 .settings
 .project
 .tool-versions
+.elixir_ls
