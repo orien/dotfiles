@@ -6,7 +6,8 @@ brew 'jq'
 brew 'stow'
 
 # Communications
-cask 'muzzle'
+cask 'amazon-chime'
+# cask 'muzzle'
 cask 'slack'
 mas 'Textual 7', id: 1262957439
 # cask 'zoomus'
@@ -28,6 +29,8 @@ brew 'fzf'
 brew 'ripgrep'
 
 # Github and SCM
+tap 'github/gh'
+brew 'github/gh/gh'
 cask 'fork'
 brew 'gist'
 brew 'git'
@@ -45,7 +48,6 @@ brew 'packer'
 
 # Web Development
 cask 'chromedriver'
-brew 'elm'
 brew 'libxml2'
 brew 'nginx', restart_service: true
 
@@ -63,12 +65,9 @@ brew 'unrar'
 
 # Web Browsers
 cask 'brave-browser'
-cask 'firefox-developer-edition'
+# cask 'firefox-developer-edition'
 cask 'google-chrome'
-cask 'vivaldi'
-
-# Go Ecosystem
-brew 'go'
+# cask 'vivaldi'
 
 # Haskell Ecosystem
 brew 'cabal-install'
@@ -86,8 +85,10 @@ brew 'python'
 brew 'rustup-init'
 
 # Documentation and Diagramming
+brew 'adr-tools'
 brew 'graphviz'
 brew 'imagemagick'
+cask 'imageoptim'
 brew 'ispell'
 brew 'pandoc'
 brew 'plantuml'
@@ -107,8 +108,8 @@ brew 'sqlite'
 
 # Editors
 brew 'neovim'
-tap 'railwaycat/emacsmacport'
-cask 'railwaycat/emacsmacport/emacs-mac'
+# tap 'railwaycat/emacsmacport'
+# cask 'railwaycat/emacsmacport/emacs-mac'
 brew 'vim'
 cask 'visual-studio-code'
 
@@ -118,6 +119,8 @@ cask 'logitech-control-center'
 
 # Fonts
 tap 'homebrew/cask-fonts'
+cask 'font-cascadia'
+cask 'font-fira-code'
 cask 'font-inconsolata'
 cask 'font-source-code-pro'
 
