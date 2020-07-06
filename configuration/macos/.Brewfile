@@ -25,7 +25,6 @@ brew 'zsh'
 # Text Search
 brew 'ctags'
 brew 'fzf'
-brew 'lesspipe'
 brew 'ripgrep'
 
 # Github and SCM
