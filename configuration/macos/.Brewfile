@@ -97,7 +97,6 @@ brew 'svgcleaner'
 # Security and Encryption tools
 mas '1Password 7', id: 1333542190
 brew 'gpg2'
-cask 'keybase'
 
 # Databases
 cask 'datagrip'
