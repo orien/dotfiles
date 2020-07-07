@@ -131,7 +131,6 @@ brew 'bk'
 # Productivity and Niceties
 cask 'alfred'
 cask 'dash'
-cask 'karabiner-elements' # I like to map the caps lock key to escape
 cask 'shortcat'
 mas 'Things 3', id: 904280696
 mas "Monosnap", id: 540348655
