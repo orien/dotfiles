@@ -101,7 +101,7 @@ cask 'keybase'
 
 # Databases
 cask 'datagrip'
-brew 'mysql@5.6', link: true
+brew 'mysql'
 brew 'postgresql'
 brew 'redis'
 brew 'sqlite'
