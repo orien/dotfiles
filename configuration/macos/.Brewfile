@@ -7,10 +7,8 @@ brew 'stow'
 
 # Communications
 cask 'amazon-chime'
-# cask 'muzzle'
 cask 'slack'
 mas 'Textual 7', id: 1262957439
-# cask 'zoomus'
 
 # Shells, CLI, process management
 brew 'asdf'
