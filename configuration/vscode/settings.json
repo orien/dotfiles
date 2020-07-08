@@ -12,13 +12,12 @@
     "workbench.sideBar.location": "left",
     "window.zoomLevel": 1,
     "extensions.ignoreRecommendations": false,
+    "ruby.useBundler": true,
+    "ruby.useLanguageServer": true,
     "ruby.lint": {
-        "reek": true,
+        "reek": false,
         "rubocop": false,
-        "ruby": false,
-        "fasterer": true,
-        "debride": true,
-        "ruby-lint": false
+        "standard": false
     },
     "workbench.iconTheme": "material-icon-theme",
     "gitlens.advanced.messages": {
