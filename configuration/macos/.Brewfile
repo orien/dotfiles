@@ -7,7 +7,6 @@ brew 'stow'
 
 # Communications
 cask 'amazon-chime'
-cask 'discord'
 # cask 'muzzle'
 cask 'slack'
 mas 'Textual 7', id: 1262957439
