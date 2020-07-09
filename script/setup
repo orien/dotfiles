@@ -2,7 +2,7 @@
 set -euo pipefail
 
 function stow_home {
-  stow --verbose --dir=configuration --target="$HOME" $@
+  stow --verbose --dir=configuration --target="$HOME" "$@"
 }
 
 cd "$(dirname "$0")/.."
