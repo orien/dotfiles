@@ -34,7 +34,6 @@ cask 'fork'
 brew 'gist'
 brew 'git'
 cask 'github'
-brew 'hub'
 
 # AWS and Infrastructure
 cask 'aws-vault'
