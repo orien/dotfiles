@@ -11,6 +11,7 @@ extensions=(
   PKief.material-icon-theme
   cometeer.spacemacs
   MS-vsliveshare.vsliveshare
+  github.vscode-pull-request-github
 )
 
 args=(--force)
