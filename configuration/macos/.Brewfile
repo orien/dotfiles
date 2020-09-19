@@ -73,7 +73,7 @@ brew 'ghc'
 brew 'haskell-stack'
 
 # Java Ecosystem
-cask 'java'
+brew 'openjdk'
 brew 'maven'
 
 # Python Ecosystem
