@@ -12,6 +12,7 @@ extensions=(
   cometeer.spacemacs
   MS-vsliveshare.vsliveshare
   github.vscode-pull-request-github
+  eamodio.gitlens
 )
 
 args=(--force)
