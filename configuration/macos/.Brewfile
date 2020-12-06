@@ -123,4 +123,3 @@ cask 'alfred'
 cask 'dash'
 cask 'shortcat'
 mas 'Things 3', id: 904280696
-mas "Monosnap", id: 540348655
