@@ -109,7 +109,7 @@ cask 'visual-studio-code'
 
 # Fonts
 tap 'homebrew/cask-fonts'
-cask 'font-cascadia'
+cask 'font-cascadia-code'
 cask 'font-fira-code'
 cask 'font-inconsolata'
 cask 'font-source-code-pro'
