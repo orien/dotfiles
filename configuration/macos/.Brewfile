@@ -107,10 +107,6 @@ brew 'neovim'
 brew 'vim'
 cask 'visual-studio-code'
 
-# Drivers
-tap 'homebrew/cask-drivers'
-cask 'logitech-control-center'
-
 # Fonts
 tap 'homebrew/cask-fonts'
 cask 'font-cascadia'
