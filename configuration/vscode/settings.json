@@ -1,25 +1,27 @@
 {
+    "[go]": {
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        },
+        "editor.formatOnSave": true,
+        "editor.snippetSuggestions": "none"
+    },
+    "[go.mod]": {
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    },
+    "editor.fontFamily": "Fira Code, Cascadia Code, Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 13,
+    "editor.renderControlCharacters": true,
     "editor.renderWhitespace": "boundary",
     "editor.tabSize": 2,
+    "explorer.confirmDelete": false,
+    "extensions.ignoreRecommendations": false,
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
-    "search.exclude": {
-        "**/.bundle": true,
-        "**/vendor": true,
-        "**/node_modules": true,
-        "**/bower_components": true
-    },
-    "workbench.sideBar.location": "left",
-    "window.zoomLevel": 1,
-    "extensions.ignoreRecommendations": false,
-    "ruby.useBundler": true,
-    "ruby.useLanguageServer": true,
-    "ruby.lint": {
-        "reek": false,
-        "rubocop": false,
-        "standard": false
-    },
-    "workbench.iconTheme": "material-icon-theme",
     "gitlens.advanced.messages": {
         "suppressCommitHasNoPreviousCommitWarning": false,
         "suppressCommitNotFoundWarning": false,
@@ -32,41 +34,34 @@
         "suppressUpdateNotice": false,
         "suppressWelcomeNotice": true
     },
-    "explorer.confirmDelete": false,
     "gitlens.keymap": "chorded",
-    "ruby.format": "rubocop",
     "gitlens.views.fileHistory.enabled": true,
     "gitlens.views.lineHistory.enabled": true,
-    "terminal.external.osxExec": "iTerm.app",
-    "editor.renderControlCharacters": true,
-    "editor.fontLigatures": true,
-    "editor.fontFamily": "Fira Code, Cascadia Code, Menlo, Monaco, 'Courier New', monospace",
-    "editor.fontSize": 13,
-    "workbench.colorTheme": "Solarized Light",
     "go.formatTool": "goimports",
     "go.useLanguageServer": true,
-    "[go]": {
-        "editor.formatOnSave": true,
-        "editor.codeActionsOnSave": {
-            "source.organizeImports": true,
-        },
-        // Optional: Disable snippets, as they conflict with completion ranking.
-        "editor.snippetSuggestions": "none",
-    },
-    "[go.mod]": {
-        "editor.formatOnSave": true,
-        "editor.codeActionsOnSave": {
-            "source.organizeImports": true,
-        },
-    },
     "gopls": {
-        // Add parameter placeholders when completing a function.
         "usePlaceholders": true,
-
-        // If true, enable additional analyses with staticcheck.
-        // Warning: This will significantly increase memory usage.
-        "staticcheck": false,
+        "staticcheck": false
+    },
+    "ruby.format": "rubocop",
+    "ruby.lint": {
+        "reek": false,
+        "rubocop": false,
+        "standard": false
+    },
+    "ruby.useBundler": true,
+    "ruby.useLanguageServer": true,
+    "search.exclude": {
+        "**/.bundle": true,
+        "**/vendor": true,
+        "**/node_modules": true,
+        "**/bower_components": true
     },
     "telemetry.enableTelemetry": false,
-    "telemetry.enableCrashReporter": false
+    "telemetry.enableCrashReporter": false,
+    "terminal.external.osxExec": "iTerm.app",
+    "window.zoomLevel": 1,
+    "workbench.colorTheme": "Solarized Light",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.sideBar.location": "left"
 }
