@@ -10,7 +10,6 @@ extensions=(
   ms-azuretools.vscode-docker
   PKief.material-icon-theme
   cometeer.spacemacs
-  MS-vsliveshare.vsliveshare
   github.vscode-pull-request-github
   eamodio.gitlens
 )
