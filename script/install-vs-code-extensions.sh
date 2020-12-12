@@ -6,7 +6,6 @@ extensions=(
   eamodio.gitlens
   rebornix.ruby
   golang.go
-  jakebecker.elixir-ls
   ms-azuretools.vscode-docker
   PKief.material-icon-theme
   cometeer.spacemacs
