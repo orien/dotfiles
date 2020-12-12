@@ -104,7 +104,7 @@ brew 'sqlite'
 brew 'neovim'
 # tap 'railwaycat/emacsmacport'
 # cask 'railwaycat/emacsmacport/emacs-mac'
-cask 'visual-studio-code'
+# cask 'visual-studio-code'
 
 # Fonts
 tap 'homebrew/cask-fonts'
