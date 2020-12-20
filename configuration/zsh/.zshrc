@@ -22,7 +22,6 @@ plugins=(
   rust
   stack-master
   npm
-  vscode
   zsh-syntax-highlighting
 )
 
