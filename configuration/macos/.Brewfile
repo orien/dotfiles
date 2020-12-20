@@ -119,5 +119,5 @@ brew 'bk'
 # Productivity and Niceties
 cask 'alfred'
 cask 'dash'
-cask 'shortcat'
+# cask 'shortcat'
 mas 'Things 3', id: 904280696
