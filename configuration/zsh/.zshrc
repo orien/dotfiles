@@ -20,6 +20,7 @@ plugins=(
   gem
   git
   rust
+  stack-master
   npm
   vscode
   zsh-syntax-highlighting
