@@ -1,4 +1,7 @@
-set nocompatible
+if &compatible
+  set nocompatible
+endif
+
 set encoding=utf-8
 filetype off
 
