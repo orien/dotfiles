@@ -52,7 +52,7 @@ defaults write com.apple.Finder _FXShowPosixPathInTitle -bool 'TRUE'
 defaults write com.apple.Finder FXEnableExtensionChangeWarning -bool 'FALSE'
 
 # Show all filename extensions
-defaults write com.apple.Finder AppleShowAllExtensions -bool 'TRUE'
+defaults write NSGlobalDomain AppleShowAllExtensions -bool 'TRUE'
 
 # Show hidden files
 defaults write com.apple.Finder AppleShowAllFiles -bool 'TRUE'
