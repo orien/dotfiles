@@ -12,6 +12,7 @@ call minpac#add('k-takata/minpac', {'type': 'opt'})
 
 call minpac#add('rizzatti/dash.vim')
 call minpac#add('junegunn/fzf')
+call minpac#add('morhetz/gruvbox')
 call minpac#add('scrooloose/nerdtree')
 call minpac#add('godlygeek/tabular')
 call minpac#add('vim-airline/vim-airline')
@@ -66,10 +67,9 @@ let g:airline#extensions#tabline#enabled = 1
 let g:bufferline_echo=0
 
 " colour scheme
-" set background=dark
-let base16colorspace=256
-" colorscheme base16-railscasts
-let g:airline_theme='base16_default'
+let g:airline_theme='base16_gruvbox_dark_hard'
+let g:gruvbox_contrast_dark='hard'
+colorscheme gruvbox
 
 " change cursor in insert mode (iterm2)
 autocmd InsertEnter * set cul
