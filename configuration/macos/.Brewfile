@@ -101,8 +101,6 @@ brew 'sqlite'
 
 # Editors
 brew 'neovim'
-# tap 'railwaycat/emacsmacport'
-# cask 'railwaycat/emacsmacport/emacs-mac'
 # cask 'visual-studio-code'
 cask 'rubymine'
 
