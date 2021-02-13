@@ -101,7 +101,6 @@ brew 'sqlite'
 
 # Editors
 brew 'neovim'
-# cask 'visual-studio-code'
 cask 'rubymine'
 
 # Fonts

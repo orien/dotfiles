@@ -9,7 +9,7 @@ From the excellent [dotfiles](http://dotfiles.github.com/) page on GitHub:
 
 This is my Unix development configuration. I predominantly work on macOS using
 iTerm2 as my terminal of choice. The majority of tools are configured for
-developing with Ruby, Javascript, Go and Elixir in Vim and VS Code.
+developing with Ruby, Javascript, Go and Elixir in Vim.
 
 ### Clone and Install
 
