@@ -90,3 +90,7 @@ defaults write NSGlobalDomain NSWindowResizeTime -float '0.001'
 # Enable subpixel font rendering on non-Apple LCDs
 defaults write NSGlobalDomain AppleFontSmoothing -int '2'
 
+# Disable swipe to navigate in browsers
+defaults write com.brave.Browser AppleEnableSwipeNavigateWithScrolls -bool 'FALSE'
+defaults write com.google.Chrome AppleEnableSwipeNavigateWithScrolls -bool 'FALSE'
+
