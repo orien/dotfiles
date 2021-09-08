@@ -33,6 +33,7 @@ brew 'github/gh/gh'
 cask 'fork'
 brew 'gist'
 brew 'git'
+brew 'git-delta'
 
 # AWS and Infrastructure
 cask 'aws-vault'
