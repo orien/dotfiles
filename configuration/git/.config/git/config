@@ -3,6 +3,8 @@
 	email = _@orien.io
 [github]
 	user = orien
+[init]
+	defaultBranch = main
 [push]
 	default = current
 [pull]
