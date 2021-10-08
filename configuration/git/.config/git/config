@@ -19,5 +19,5 @@
 	diffFilter = delta --color-only
 [delta]
 	features = line-numbers hyperlinks
-	hyperlinks-file-link-format = x-mine://open?file={path}&line={line}
+	hyperlinks-file-link-format = idea://open?file={path}&line={line}
 	syntax-theme = gruvbox-dark
