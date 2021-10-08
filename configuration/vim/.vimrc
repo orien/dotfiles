@@ -30,11 +30,9 @@ set nojoinspaces
 set mouse=a
 
 " setup visuals
-syntax on
-filetype plugin indent on
 set list
+set noshowmode
 set number
-set laststatus=2
 
 " searching
 set hlsearch
@@ -44,11 +42,14 @@ set smartcase
 
 " colour scheme
 let g:gruvbox_contrast_dark='hard'
+let g:lightline = {}
+let g:lightline.colorscheme = 'gruvbox'
 colorscheme gruvbox
+set background=dark
 
 " change cursor in insert mode (iterm2)
-autocmd InsertEnter * set cul
-autocmd InsertLeave * set nocul
+autocmd InsertEnter * set cursorline
+autocmd InsertLeave * set nocursorline
 let &t_SI = "\<Esc>]50;CursorShape=1\x7"
 let &t_EI = "\<Esc>]50;CursorShape=0\x7"
 
