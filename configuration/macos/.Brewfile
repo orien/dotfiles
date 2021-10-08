@@ -20,7 +20,6 @@ cask 'iTerm2'
 brew 'pidof'
 brew 'pv'
 brew 'shellcheck'
-brew 'zsh'
 
 # Text Search
 brew 'ctags'
