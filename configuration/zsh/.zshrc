@@ -23,6 +23,7 @@ plugins=(
   golang
   emoji
   gem
+  gh
   git
   rust
   stack-master
