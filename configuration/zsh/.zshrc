@@ -27,6 +27,7 @@ plugins=(
   git
   rust
   stack-master
+  terraform
   npm
   zsh-syntax-highlighting
 )
