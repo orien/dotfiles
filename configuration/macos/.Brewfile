@@ -94,7 +94,6 @@ mas '1Password 7', id: 1333542190
 brew 'gpg2'
 
 # Databases
-cask 'datagrip'
 brew 'mysql'
 brew 'postgresql'
 brew 'redis'
