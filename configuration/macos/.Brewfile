@@ -33,6 +33,7 @@ cask 'fork'
 brew 'gist'
 brew 'git'
 brew 'git-delta'
+brew 'git-filter-repo'
 
 # AWS and Infrastructure
 cask 'aws-vault'
@@ -42,7 +43,6 @@ tap 'heroku/brew'
 brew 'heroku/brew/heroku'
 brew 'iamy'
 brew 'packer'
-brew 'git-filter-repo'
 
 # Web Development
 brew 'caddy'
