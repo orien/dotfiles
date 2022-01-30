@@ -38,6 +38,7 @@ brew 'git-filter-repo'
 # AWS and Infrastructure
 cask 'aws-vault'
 brew 'awscli'
+brew 'dive'
 cask 'docker'
 tap 'heroku/brew'
 brew 'heroku/brew/heroku'
