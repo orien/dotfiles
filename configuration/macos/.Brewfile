@@ -60,7 +60,6 @@ brew 'wget'
 cask 'dropbox'
 # cask 'google-drive-file-stream'
 brew 'gnu-tar'
-brew 'unrar'
 
 # Web Browsers
 cask 'brave-browser'
