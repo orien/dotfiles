@@ -57,7 +57,6 @@ brew 'nmap'
 brew 'wget'
 
 # Backup, Archiving and Compression
-cask 'dropbox'
 # cask 'google-drive-file-stream'
 brew 'gnu-tar'
 
