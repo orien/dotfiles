@@ -1,3 +1,4 @@
+export PATH='/opt/homebrew/bin:$PATH'
 export FZF_DEFAULT_COMMAND='rg --files'
 export VISUAL=nvim
 export AWS_PAGER=''
