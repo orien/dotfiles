@@ -110,7 +110,6 @@ cask 'font-cascadia-code'
 cask 'font-fira-code'
 cask 'font-inconsolata'
 cask 'font-meslo-lg-nerd-font'
-cask 'font-source-code-pro'
 
 # Continuous Integration
 tap 'buildkite/cli'
