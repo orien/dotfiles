@@ -5,6 +5,7 @@ fi
 
 #========= Oh My ZSH config =========
 
+PATH="/opt/homebrew/bin:$PATH"
 ZSH="$HOME/.dotfiles/repos/oh-my-zsh"
 ZSH_THEME="powerlevel10k/powerlevel10k"
 DEFAULT_USER="orien"
