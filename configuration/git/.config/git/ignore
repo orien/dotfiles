@@ -10,3 +10,4 @@
 .tool-versions
 .elixir_ls
 .irb_history
+.env
