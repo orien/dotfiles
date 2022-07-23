@@ -101,7 +101,7 @@ brew 'sqlite'
 
 # Editors
 brew 'neovim'
-cask 'intellij-idea'
+cask 'jetbrains-toolbox'
 
 # Fonts
 tap 'homebrew/cask-fonts'
