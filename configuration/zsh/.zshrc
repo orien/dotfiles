@@ -11,8 +11,10 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 DEFAULT_USER="orien"
 DISABLE_AUTO_UPDATE="true"
 DISABLE_CORRECTION="true"
+VI_MODE_SET_CURSOR="true"
 
 plugins=(
+  vi-mode
   asdf
   aws
   brew
@@ -36,6 +38,8 @@ plugins=(
 source "$ZSH/oh-my-zsh.sh"
 
 #========= some more jazz =========
+
+export KEYTIMEOUT=15
 
 # Base16 Shell
 BASE16_SHELL="$HOME/.dotfiles/repos/base16-shell"
