@@ -71,7 +71,7 @@ sm() {
   fi
 
   local command
-  command="aws-vault exec --duration=15m $aws_profile -- \\
+  command="aws-vault exec $aws_profile -- \\
   bundle exec stack_master $sm_command $region_and_stack"
   echo "$command" | bat --style=grid --force-colorization
   echo -n "Run command? [y/N] "
