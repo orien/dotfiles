@@ -102,6 +102,7 @@ brew 'sqlite'
 # Editors
 brew 'neovim'
 cask 'jetbrains-toolbox'
+cask 'visual-studio-code'
 
 # Fonts
 tap 'homebrew/cask-fonts'
