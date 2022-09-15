@@ -3,7 +3,6 @@ set -eu
 
 extensions=(
   vscodevim.vim
-  eamodio.gitlens
   rebornix.ruby
   golang.go
   ms-azuretools.vscode-docker
@@ -11,6 +10,10 @@ extensions=(
   cometeer.spacemacs
   github.vscode-pull-request-github
   eamodio.gitlens
+  rust-lang.rust-analyzer
+  ms-python.python
+  denoland.vscode-deno
+  sastan.twind-intellisense
 )
 
 args=(--force)
