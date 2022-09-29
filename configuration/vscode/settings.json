@@ -28,15 +28,9 @@
         "suppressFileNotUnderSourceControlWarning": false,
         "suppressGitVersionWarning": false,
         "suppressLineUncommittedWarning": false,
-        "suppressNoRepositoryWarning": false,
-        "suppressResultsExplorerNotice": false,
-        "suppressShowKeyBindingsNotice": true,
-        "suppressUpdateNotice": false,
-        "suppressWelcomeNotice": true
+        "suppressNoRepositoryWarning": false
     },
     "gitlens.keymap": "chorded",
-    "gitlens.views.fileHistory.enabled": true,
-    "gitlens.views.lineHistory.enabled": true,
     "go.formatTool": "goimports",
     "go.useLanguageServer": true,
     "gopls": {
@@ -57,11 +51,14 @@
         "**/node_modules": true,
         "**/bower_components": true
     },
-    "telemetry.enableTelemetry": false,
-    "telemetry.enableCrashReporter": false,
+    "telemetry.telemetryLevel": "off",
     "terminal.external.osxExec": "iTerm.app",
+    "terminal.integrated.fontFamily": "MesloLGL Nerd Font Mono",
     "window.zoomLevel": 1,
-    "workbench.colorTheme": "Solarized Light",
+    "workbench.colorTheme": "Gruvbox Dark Hard",
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.sideBar.location": "left"
+    "workbench.sideBar.location": "left",
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    }
 }

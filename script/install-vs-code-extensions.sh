@@ -8,6 +8,7 @@ extensions=(
   ms-azuretools.vscode-docker
   PKief.material-icon-theme
   cometeer.spacemacs
+  jdinhlife.gruvbox
   github.vscode-pull-request-github
   eamodio.gitlens
   rust-lang.rust-analyzer
