@@ -78,6 +78,10 @@ brew 'maven'
 # Python Ecosystem
 brew 'python'
 
+# Lua
+brew 'lua'
+brew 'luarocks'
+
 # Documentation and Diagramming
 brew 'adr-tools'
 brew 'graphviz'
