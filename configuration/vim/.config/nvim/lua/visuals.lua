@@ -5,8 +5,8 @@ vim.opt.showmode = false
 vim.opt.number = true
 
 -- Enable the cursorline in insert mode
-vim.api.nvim_create_autocmd('InsertEnter', {command = 'set cursorline'})
-vim.api.nvim_create_autocmd('InsertLeave', {command = 'set nocursorline'})
+vim.api.nvim_create_autocmd('InsertEnter', { command = 'set cursorline' })
+vim.api.nvim_create_autocmd('InsertLeave', { command = 'set nocursorline' })
 
 -- Use the gruvbox color scheme
 -- https://github.com/ellisonleao/gruvbox.nvim
