@@ -54,6 +54,7 @@ alias convert-ly='/Applications/LilyPond.app/Contents/Resources/bin/convert-ly'
 alias emacs='/Applications/Emacs.app/Contents/MacOS/bin/emacsclient --no-wait'
 alias e='emacs'
 alias vim='nvim'
+alias vi='nvim'
 
 . ~/.asdf/plugins/java/set-java-home.zsh
 
