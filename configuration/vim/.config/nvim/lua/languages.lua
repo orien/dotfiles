@@ -24,8 +24,8 @@ require("mason-lspconfig").setup()
 require("fidget").setup({})
 
 -- Completetion
-vim.opt.completeopt = 'menu,menuone,noselect'
-local cmp = require'cmp'
+vim.opt.completeopt = { 'menu', 'menuone', 'noselect' }
+local cmp = require('cmp')
 cmp.setup({
   snippet = {
     expand = function(args)
@@ -46,6 +46,7 @@ cmp.setup({
   sources = cmp.config.sources({
     { name = 'nvim_lsp' },
     { name = 'vsnip' },
+    { name = 'nvim_lua' },
   }, {
     { name = 'buffer' },
   })
@@ -68,8 +69,7 @@ cmp.setup.cmdline(':', {
 -- Enable language servers for some programming languages
 local lspconfig = require('lspconfig')
 local capabilities = require('cmp_nvim_lsp').update_capabilities(vim.lsp.protocol.make_client_capabilities())
-lspconfig.gopls.setup({capabilities = capabilities}) -- Go
-lspconfig.solargraph.setup({capabilities = capabilities}) -- Ruby
-lspconfig.sumneko_lua.setup({capabilities = capabilities}) -- Lua
-lspconfig.tsserver.setup({capabilities = capabilities}) -- Typescript
-
+lspconfig.gopls.setup({ capabilities = capabilities }) -- Go
+lspconfig.solargraph.setup({ capabilities = capabilities }) -- Ruby
+lspconfig.sumneko_lua.setup({ capabilities = capabilities }) -- Lua
+lspconfig.tsserver.setup({ capabilities = capabilities }) -- Typescript
