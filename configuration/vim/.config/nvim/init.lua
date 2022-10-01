@@ -11,6 +11,7 @@ require('impatient')
 require('plugins')
 require('visuals')
 require('terminal')
+require('languages')
 
 require('nvim-tree').setup()
 
