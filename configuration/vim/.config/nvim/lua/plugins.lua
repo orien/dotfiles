@@ -23,4 +23,24 @@ return require('packer').startup(function()
 
   -- Terminal
   use('akinsho/toggleterm.nvim')
+
+  -- Language support
+  use('williamboman/mason.nvim')
+  use('williamboman/mason-lspconfig.nvim')
+  use('neovim/nvim-lspconfig')
+  use('mfussenegger/nvim-dap')
+  use({
+    'jose-elias-alvarez/null-ls.nvim',
+    requires = 'nvim-lua/plenary.nvim',
+  })
+
+  -- Completetion
+  use('hrsh7th/cmp-nvim-lsp')
+  use('hrsh7th/cmp-buffer')
+  use('hrsh7th/cmp-path')
+  use('hrsh7th/cmp-cmdline')
+  use('hrsh7th/nvim-cmp')
+  use('hrsh7th/vim-vsnip')
+
+  use('j-hui/fidget.nvim')
 end)
