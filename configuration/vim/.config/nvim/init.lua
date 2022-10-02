@@ -12,7 +12,7 @@ require('visuals')
 require('terminal')
 require('languages')
 
-require('nvim_comment').setup()
+require('Comment').setup()
 require('nvim-tree').setup()
 require('gitsigns').setup()
 

@@ -2,7 +2,7 @@ return require('packer').startup(function()
   use('wbthomason/packer.nvim')
 
   use('nvim-lua/plenary.nvim')
-  use('terrortylor/nvim-comment')
+  use('numToStr/Comment.nvim')
 
   use('lewis6991/gitsigns.nvim')
 
