@@ -1,4 +1,3 @@
-
 vim.opt.background = 'dark'
 vim.opt.list = true
 vim.opt.showmode = false
@@ -20,7 +19,7 @@ require('lualine').setup({
     component_separators = '',
     section_separators = '',
   },
-  extensions = {'nvim-tree', 'toggleterm'}
+  extensions = { 'nvim-tree', 'toggleterm' }
 })
 
 -- Configure the tab line

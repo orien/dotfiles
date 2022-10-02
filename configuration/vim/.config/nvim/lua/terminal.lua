@@ -1,4 +1,3 @@
-
 require("toggleterm").setup({
   shading_factor = -16,
 })
@@ -15,7 +14,7 @@ function _G.set_terminal_keymaps()
   vim.keymap.set('t', '<C-w>w', [[<Cmd>wincmd w<CR>]], opts)
 end
 
-vim.api.nvim_create_autocmd(
-  'TermOpen',
-  { pattern = 'term://*', command = 'lua set_terminal_keymaps()' }
-)
+vim.api.nvim_create_autocmd('TermOpen', {
+  pattern = 'term://*',
+  command = 'lua set_terminal_keymaps()'
+})
