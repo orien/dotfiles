@@ -13,7 +13,9 @@ require('visuals')
 require('terminal')
 require('languages')
 
+require('nvim_comment').setup()
 require('nvim-tree').setup()
+require('gitsigns').setup()
 
 opt.mouse = 'a'
 
