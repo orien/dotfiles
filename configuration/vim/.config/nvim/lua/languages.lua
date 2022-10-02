@@ -15,6 +15,11 @@ null_ls.setup({
   },
 })
 
+vim.api.nvim_create_autocmd('FileType', {
+  pattern = { 'Gitcommit', 'Markdown', 'Text' },
+  callback = function() vim.opt_local.spell = true end,
+})
+
 -- Install
 require('mason').setup()
 require("mason-lspconfig").setup()
