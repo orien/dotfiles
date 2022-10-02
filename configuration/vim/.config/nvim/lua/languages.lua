@@ -88,6 +88,18 @@ lspconfig.sumneko_lua.setup({ -- Lua
   },
 })
 lspconfig.tsserver.setup({ capabilities = capabilities }) -- Typescript
+require("rust-tools").setup() -- Rust
+local rt = require("rust-tools")
+rt.setup({
+  server = {
+    on_attach = function(_, bufnr)
+      -- Hover actions
+      vim.keymap.set("n", "<C-space>", rt.hover_actions.hover_actions, { buffer = bufnr })
+      -- Code action groups
+      vim.keymap.set("n", "<Leader>a", rt.code_action_group.code_action_group, { buffer = bufnr })
+    end,
+  },
+})
 
 -- Configure keymap for LSP functions
 local opts = { noremap = true, silent = true }
@@ -112,4 +124,10 @@ vim.api.nvim_create_autocmd('LspAttach', {
       vim.keymap.set('n', 'K', vim.lsp.buf.hover, bufopts)
     end
   end,
+})
+
+require('nvim-treesitter.configs').setup({
+  ensure_installed = { 'go', 'lua', 'ruby', 'rust', 'typescript' },
+  sync_install = false,
+  auto_install = true,
 })
