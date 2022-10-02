@@ -1,4 +1,3 @@
-
 require('impatient')
 
 local g = vim.g
@@ -23,4 +22,3 @@ opt.ts = 2
 opt.sts = 2
 opt.sw = 2
 opt.expandtab = true
-
