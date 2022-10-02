@@ -72,7 +72,17 @@ local lspconfig = require('lspconfig')
 local capabilities = require('cmp_nvim_lsp').update_capabilities(vim.lsp.protocol.make_client_capabilities())
 lspconfig.gopls.setup({ capabilities = capabilities }) -- Go
 lspconfig.solargraph.setup({ capabilities = capabilities }) -- Ruby
-lspconfig.sumneko_lua.setup({ capabilities = capabilities }) -- Lua
+lspconfig.sumneko_lua.setup({ -- Lua
+  capabilities = capabilities,
+  settings = {
+    Lua = {
+      runtime = { version = 'LuaJIT' },
+      diagnostics = { globals = { 'vim' } },
+      workspace = { library = vim.api.nvim_get_runtime_file('', true) },
+      telementry = { enable = false },
+    }
+  },
+})
 lspconfig.tsserver.setup({ capabilities = capabilities }) -- Typescript
 
 -- Configure keymap for LSP functions
