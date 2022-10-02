@@ -1,6 +1,11 @@
 return require('packer').startup(function()
   use('wbthomason/packer.nvim')
 
+  use('nvim-lua/plenary.nvim')
+  use('terrortylor/nvim-comment')
+
+  use('lewis6991/gitsigns.nvim')
+
   use('lewis6991/impatient.nvim')
 
   -- Visuals
