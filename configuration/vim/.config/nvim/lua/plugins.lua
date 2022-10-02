@@ -38,6 +38,8 @@ return require('packer').startup(function()
     'jose-elias-alvarez/null-ls.nvim',
     requires = 'nvim-lua/plenary.nvim',
   })
+  use('simrat39/rust-tools.nvim')
+  use('nvim-treesitter/nvim-treesitter')
 
   -- Completetion
   use('hrsh7th/cmp-nvim-lsp')
