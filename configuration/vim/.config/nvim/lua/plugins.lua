@@ -3,6 +3,7 @@ return require('packer').startup(function()
 
   use('nvim-lua/plenary.nvim')
   use('numToStr/Comment.nvim')
+  use('kylechui/nvim-surround')
 
   use('lewis6991/gitsigns.nvim')
 
