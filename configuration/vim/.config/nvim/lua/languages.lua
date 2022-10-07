@@ -126,6 +126,8 @@ vim.api.nvim_create_autocmd('LspAttach', {
   end,
 })
 
+require('symbols-outline').setup()
+
 require('nvim-treesitter.configs').setup({
   ensure_installed = { 'go', 'lua', 'ruby', 'rust', 'typescript' },
   sync_install = false,

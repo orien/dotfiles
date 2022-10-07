@@ -41,6 +41,7 @@ return require('packer').startup(function()
   })
   use('simrat39/rust-tools.nvim')
   use('nvim-treesitter/nvim-treesitter')
+  use('simrat39/symbols-outline.nvim')
 
   -- Completetion
   use('hrsh7th/cmp-nvim-lsp')
