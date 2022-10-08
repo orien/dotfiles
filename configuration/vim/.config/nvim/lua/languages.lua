@@ -87,6 +87,7 @@ lspconfig.sumneko_lua.setup({ -- Lua
     }
   },
 })
+lspconfig.terraformls.setup({ capabilities = capabilities }) -- Terraform
 lspconfig.tsserver.setup({ capabilities = capabilities }) -- Typescript
 require("rust-tools").setup() -- Rust
 local rt = require("rust-tools")
