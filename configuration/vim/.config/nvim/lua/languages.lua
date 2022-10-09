@@ -133,4 +133,13 @@ require('nvim-treesitter.configs').setup({
   ensure_installed = { 'go', 'lua', 'ruby', 'rust', 'typescript' },
   sync_install = false,
   auto_install = true,
+  highlight = {
+    enabled = true,
+  },
+  incremental_selection = {
+    enable = true,
+  },
+  indent = {
+    enable = true,
+  },
 })
