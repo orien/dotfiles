@@ -13,7 +13,7 @@ return require('packer').startup(function()
   use('ellisonleao/gruvbox.nvim')
   use({
     'akinsho/bufferline.nvim',
-    tag = "v2.*",
+    tag = 'v2.*',
     requires = 'kyazdani42/nvim-web-devicons',
   })
   use({
