@@ -14,6 +14,7 @@ mas 'Textual 7', id: 1262957439
 brew 'asdf'
 brew 'bat'
 brew 'dash'
+brew 'fd'
 brew 'findutils'
 brew 'gnu-sed'
 cask 'iTerm2'
