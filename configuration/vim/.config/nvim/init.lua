@@ -7,10 +7,13 @@ local opt = vim.opt
 g.loaded = 1
 g.loaded_netrwPlugin = 1
 
+g.mapleader = ' '
+
 require('plugins')
 require('visuals')
 require('terminal')
 require('languages')
+require('search')
 
 require('Comment').setup()
 require('nvim-tree').setup()
