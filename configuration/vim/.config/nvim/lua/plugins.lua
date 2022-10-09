@@ -5,6 +5,8 @@ return require('packer').startup(function()
   use('numToStr/Comment.nvim')
   use('kylechui/nvim-surround')
 
+  use('nvim-telescope/telescope.nvim')
+
   use('lewis6991/gitsigns.nvim')
 
   use('lewis6991/impatient.nvim')
