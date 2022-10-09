@@ -24,6 +24,6 @@ require('lualine').setup({
 
 -- Configure the tab line
 vim.opt.termguicolors = true
-require("bufferline").setup({})
+require('bufferline').setup({})
 
 vim.opt.signcolumn = 'yes'

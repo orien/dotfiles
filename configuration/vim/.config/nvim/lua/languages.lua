@@ -22,10 +22,10 @@ vim.api.nvim_create_autocmd('FileType', {
 
 -- Install
 require('mason').setup()
-require("mason-lspconfig").setup()
+require('mason-lspconfig').setup()
 
 -- Use fidget to display nvim-lsp progress
-require("fidget").setup({})
+require('fidget').setup({})
 
 -- Completetion
 vim.opt.completeopt = { 'menu', 'menuone', 'noselect' }
@@ -33,7 +33,7 @@ local cmp = require('cmp')
 cmp.setup({
   snippet = {
     expand = function(args)
-      vim.fn["vsnip#anonymous"](args.body)
+      vim.fn['vsnip#anonymous'](args.body)
     end,
   },
   window = {
@@ -89,15 +89,15 @@ lspconfig.sumneko_lua.setup({ -- Lua
 })
 lspconfig.terraformls.setup({ capabilities = capabilities }) -- Terraform
 lspconfig.tsserver.setup({ capabilities = capabilities }) -- Typescript
-require("rust-tools").setup() -- Rust
-local rt = require("rust-tools")
+require('rust-tools').setup() -- Rust
+local rt = require('rust-tools')
 rt.setup({
   server = {
     on_attach = function(_, bufnr)
       -- Hover actions
-      vim.keymap.set("n", "<C-space>", rt.hover_actions.hover_actions, { buffer = bufnr })
+      vim.keymap.set('n', '<C-space>', rt.hover_actions.hover_actions, { buffer = bufnr })
       -- Code action groups
-      vim.keymap.set("n", "<Leader>a", rt.code_action_group.code_action_group, { buffer = bufnr })
+      vim.keymap.set('n', '<leader>a', rt.code_action_group.code_action_group, { buffer = bufnr })
     end,
   },
 })

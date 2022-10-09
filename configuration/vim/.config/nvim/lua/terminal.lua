@@ -1,4 +1,4 @@
-require("toggleterm").setup({
+require('toggleterm').setup({
   shading_factor = -16,
 })
 
