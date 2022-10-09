@@ -2,6 +2,7 @@ vim.opt.background = 'dark'
 vim.opt.list = true
 vim.opt.showmode = false
 vim.opt.number = true
+vim.opt.relativenumber = true
 
 -- Enable the cursorline in insert mode
 vim.api.nvim_create_autocmd('InsertEnter', { command = 'set cursorline' })
