@@ -74,6 +74,7 @@ cmp.setup.cmdline(':', {
 -- Enable language servers for some programming languages
 local lspconfig = require('lspconfig')
 local capabilities = require('cmp_nvim_lsp').update_capabilities(vim.lsp.protocol.make_client_capabilities())
+-- lspconfig.denols.setup({ capabilities = capabilities }) -- Typescript (Deno projects)
 lspconfig.gopls.setup({ capabilities = capabilities }) -- Go
 lspconfig.solargraph.setup({ capabilities = capabilities }) -- Ruby
 lspconfig.sumneko_lua.setup({ -- Lua
@@ -88,7 +89,7 @@ lspconfig.sumneko_lua.setup({ -- Lua
   },
 })
 lspconfig.terraformls.setup({ capabilities = capabilities }) -- Terraform
-lspconfig.tsserver.setup({ capabilities = capabilities }) -- Typescript
+lspconfig.tsserver.setup({ capabilities = capabilities }) -- Typescript (Node.js projects)
 require('rust-tools').setup() -- Rust
 local rt = require('rust-tools')
 rt.setup({
