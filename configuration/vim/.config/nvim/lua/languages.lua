@@ -144,3 +144,13 @@ require('nvim-treesitter.configs').setup({
     enable = true,
   },
 })
+
+vim.opt.tabstop = 2
+vim.opt.shiftwidth = 0
+vim.opt.expandtab = true
+
+vim.api.nvim_create_autocmd('FileType', {
+  pattern = { 'go' },
+  command = 'setlocal noexpandtab tabstop=4',
+})
+

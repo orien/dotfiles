@@ -14,9 +14,5 @@ require('nvim-tree').setup()
 require('nvim-surround').setup()
 require('gitsigns').setup()
 
-opt.mouse = 'a'
+vim.opt.mouse = 'a'
 
-opt.ts = 2
-opt.sts = 2
-opt.sw = 2
-opt.expandtab = true
