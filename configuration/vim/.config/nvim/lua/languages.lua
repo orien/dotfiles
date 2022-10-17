@@ -112,10 +112,10 @@ rt.setup({
 
 -- Configure keymap for LSP functions
 local opts = { noremap = true, silent = true }
-vim.keymap.set('n', '<space>e', vim.diagnostic.open_float, opts)
+vim.keymap.set('n', '<leader>e', vim.diagnostic.open_float, opts)
 vim.keymap.set('n', '[d', vim.diagnostic.goto_prev, opts)
 vim.keymap.set('n', ']d', vim.diagnostic.goto_next, opts)
-vim.keymap.set('n', '<space>q', vim.diagnostic.setloclist, opts)
+vim.keymap.set('n', '<leader>q', vim.diagnostic.setloclist, opts)
 vim.api.nvim_create_autocmd('LspAttach', {
   callback = function(args)
     local bufopts = { noremap = true, silent = true, buffer = args.buf }
@@ -123,11 +123,11 @@ vim.api.nvim_create_autocmd('LspAttach', {
     vim.keymap.set('n', 'gd', vim.lsp.buf.definition, bufopts)
     vim.keymap.set('n', 'gi', vim.lsp.buf.implementation, bufopts)
     vim.keymap.set('n', '<C-k>', vim.lsp.buf.signature_help, bufopts)
-    vim.keymap.set('n', '<space>D', vim.lsp.buf.type_definition, bufopts)
-    vim.keymap.set('n', '<space>rn', vim.lsp.buf.rename, bufopts)
-    vim.keymap.set('n', '<space>ca', vim.lsp.buf.code_action, bufopts)
+    vim.keymap.set('n', '<leader>D', vim.lsp.buf.type_definition, bufopts)
+    vim.keymap.set('n', '<leader>rn', vim.lsp.buf.rename, bufopts)
+    vim.keymap.set('n', '<leader>ca', vim.lsp.buf.code_action, bufopts)
     vim.keymap.set('n', 'gr', vim.lsp.buf.references, bufopts)
-    vim.keymap.set('n', '<space>f', function() vim.lsp.buf.format({ async = true }) end, bufopts)
+    vim.keymap.set('n', '<leader>f', function() vim.lsp.buf.format({ async = true }) end, bufopts)
     local client = vim.lsp.get_client_by_id(args.data.client_id)
     if client.server_capabilities.hoverProvider then
       vim.keymap.set('n', 'K', vim.lsp.buf.hover, bufopts)
