@@ -1,14 +1,8 @@
 require('impatient')
 
-local g = vim.g
-local opt = vim.opt
+vim.g.mapleader = ' '
 
--- disable netrw
-g.loaded = 1
-g.loaded_netrwPlugin = 1
-
-g.mapleader = ' '
-
+require('disable_builtin')
 require('plugins')
 require('visuals')
 require('terminal')
