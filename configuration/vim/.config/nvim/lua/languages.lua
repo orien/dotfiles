@@ -25,7 +25,14 @@ require('mason').setup()
 require('mason-lspconfig').setup()
 
 -- Use fidget to display nvim-lsp progress
-require('fidget').setup({})
+require('fidget').setup({
+  text = {
+    spinner = 'dots',
+  },
+  window = {
+    relative = 'editor',
+  },
+})
 
 -- Completetion
 vim.opt.completeopt = { 'menu', 'menuone', 'noselect' }
