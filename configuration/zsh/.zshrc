@@ -54,3 +54,11 @@ alias vi='nvim'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+# Switch to a git branch
+fco() {
+  local branches target
+  branches="$(git for-each-ref --sort=-committerdate refs/heads/ --format="%(refname:short)")"
+  target="$(echo "$branches" | fzf --preview="git --no-pager log -150 --color --pretty='tformat:%Cred*%Creset %s %Cgreen(%ar) %C(bold blue)<%an>%Creset%n%b' '..{}'")" || return
+  git switch "$target"
+}
