@@ -62,3 +62,9 @@ fco() {
   target="$(echo "$branches" | fzf --preview="git --no-pager log -150 --color --pretty='tformat:%Cred*%Creset %s %Cgreen(%ar) %C(bold blue)<%an>%Creset%n%b' '..{}'")" || return
   git switch "$target"
 }
+
+# Remove one or more docker images
+drmi() {
+  local query="$1:-"
+  docker images | sed 1d | fzf --query="$query" --no-sort --multi --tac | awk '{ print $3 }' | xargs -r docker rmi
+}
