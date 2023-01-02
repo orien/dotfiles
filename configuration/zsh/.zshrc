@@ -33,6 +33,7 @@ plugins=(
   terraform
   npm
   zsh-syntax-highlighting
+  aws-vault
 )
 
 source "$ZSH/oh-my-zsh.sh"
