@@ -35,7 +35,7 @@ sm() {
   if [ -f ./stack_master.yml ]; then
     config="./stack_master.yml"
   else
-    config="$(_stackmaster_configs | fzf --header="Select a Stack Master configuration" --preview="bat -f --style=header,grid {}")"
+    config="$(_stackmaster_configs | fzf --header="Select a Stack Master configuration" --preview="bat -f --style=header,grid {}")" || return
   fi
 
   local region_and_stack
