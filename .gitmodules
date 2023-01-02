@@ -13,3 +13,6 @@
 [submodule "repos/powerlevel10k"]
 	path = repos/powerlevel10k
 	url = https://github.com/romkatv/powerlevel10k.git
+[submodule "repos/forgit"]
+	path = repos/forgit
+	url = https://github.com/wfxr/forgit.git

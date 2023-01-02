@@ -27,6 +27,7 @@ plugins=(
   gem
   gh
   git
+  forgit
   rust
   stack-master
   terraform
