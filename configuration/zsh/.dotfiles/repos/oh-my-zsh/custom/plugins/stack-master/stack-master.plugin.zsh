@@ -97,7 +97,7 @@ sm() {
   case "$input" in
     [yY][eE][sS]|[yY])
       if [ "$config" != './stack_master.yml' ]; then
-        cd "$config"
+        cd "$(dirname "$config")"
       fi
       eval "$command"
       ;;
