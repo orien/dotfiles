@@ -16,6 +16,8 @@ require('lazy').setup({
 
   'folke/which-key.nvim',
 
+  'github/copilot.vim',
+
   -- Visuals
   'ellisonleao/gruvbox.nvim',
   { 'akinsho/bufferline.nvim', version = '^4.4.1', dependencies = 'nvim-tree/nvim-web-devicons' },
