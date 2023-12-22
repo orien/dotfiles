@@ -16,9 +16,11 @@ require('lazy').setup({
 
   'lewis6991/impatient.nvim',
 
+  'folke/which-key.nvim',
+
   -- Visuals
   'ellisonleao/gruvbox.nvim',
-  { 'akinsho/bufferline.nvim', version = '^2.12.0', dependencies = 'nvim-tree/nvim-web-devicons' },
+  { 'akinsho/bufferline.nvim', version = '^4.4.1', dependencies = 'nvim-tree/nvim-web-devicons' },
   { 'nvim-lualine/lualine.nvim', dependencies = 'nvim-tree/nvim-web-devicons' },
 
   -- File tree browser
