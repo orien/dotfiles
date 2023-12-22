@@ -19,6 +19,7 @@ plugins=(
   brew
   bundler
   colored-man-pages
+  direnv
   docker
   docker-compose
   fzf
