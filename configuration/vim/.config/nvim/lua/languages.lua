@@ -118,7 +118,20 @@ vim.api.nvim_create_autocmd('LspAttach', {
 require('symbols-outline').setup()
 
 require('nvim-treesitter.configs').setup({
-  ensure_installed = { 'go', 'javascript', 'lua', 'ruby', 'rust', 'typescript' },
+  ensure_installed = {
+    'css',
+    'gitcommit',
+    'gitignore',
+    'go',
+    'javascript',
+    'lua',
+    'ruby',
+    'rust',
+    'scss',
+    'sql',
+    'typescript',
+    'vue',
+  },
   sync_install = false,
   auto_install = true,
   highlight = {
