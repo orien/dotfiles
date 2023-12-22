@@ -1,2 +1,11 @@
-install: --no-ri --no-rdoc --no-document
-update: --no-ri --no-rdoc --no-document
+---
+:backtrace: true
+:bulk_threshold: 1000
+:concurrent_downloads: 8
+:disable_default_gem_server: true
+:sources:
+  - https://rubygems.org/
+:update_sources: true
+:verbose: true
+install: --no-document
+update: --no-document
