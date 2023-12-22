@@ -1,6 +1,10 @@
-return require('packer').startup(function()
+return require('packer').startup(function(use)
   use('wbthomason/packer.nvim')
 
+  use({
+    "folke/trouble.nvim",
+    requires = "nvim-tree/nvim-web-devicons",
+  })
   use('nvim-lua/plenary.nvim')
   use('numToStr/Comment.nvim')
   use('kylechui/nvim-surround')
