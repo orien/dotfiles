@@ -15,9 +15,15 @@
 	prune-merged = !git branch --merged | grep -v \"\\*\" | grep -v main | xargs -n 1 git branch -d
 [core]
 	pager = delta
+[diff]
+	colorMoved = default
 [interactive]
-	diffFilter = delta --color-only
+	diffFilter = delta --color-only --features='interactive decorations'
 [delta]
-	features = line-numbers hyperlinks
-	hyperlinks-file-link-format = idea://open?file={path}&line={line}
+	features = decorations
+[delta "decorations"]
 	syntax-theme = gruvbox-dark
+	hyperlinks = true
+	hyperlinks-file-link-format = vscode://file/{path}:{line}
+[delta "interactive"]
+	keep-plus-minus-markers = false
