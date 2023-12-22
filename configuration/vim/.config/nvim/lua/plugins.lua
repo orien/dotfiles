@@ -1,65 +1,49 @@
-return require('packer').startup(function(use)
-  use('wbthomason/packer.nvim')
+local lazy_path = vim.fn.stdpath('data') .. '/lazy/lazy.nvim'
+if not vim.loop.fs_stat(lazy_path) then
+  vim.fn.system({ 'git', 'clone', '--filter=blob:none', '--branch=stable', 'https://github.com/folke/lazy.nvim.git', lazy_path })
+end
+vim.opt.rtp:prepend(lazy_path)
 
-  use({
-    "folke/trouble.nvim",
-    requires = "nvim-tree/nvim-web-devicons",
-  })
-  use('nvim-lua/plenary.nvim')
-  use('numToStr/Comment.nvim')
-  use('kylechui/nvim-surround')
+require('lazy').setup({
+  { 'folke/trouble.nvim', dependencies = 'nvim-tree/nvim-web-devicons'  },
+  'nvim-lua/plenary.nvim',
+  'numToStr/Comment.nvim',
+  'kylechui/nvim-surround',
 
-  use('nvim-telescope/telescope.nvim')
+  'nvim-telescope/telescope.nvim',
 
-  use('lewis6991/gitsigns.nvim')
+  'lewis6991/gitsigns.nvim',
 
-  use('lewis6991/impatient.nvim')
+  'lewis6991/impatient.nvim',
 
   -- Visuals
-  use('ellisonleao/gruvbox.nvim')
-  use({
-    'akinsho/bufferline.nvim',
-    tag = 'v2.*',
-    requires = 'nvim-tree/nvim-web-devicons',
-  })
-  use({
-    'nvim-lualine/lualine.nvim',
-    requires = 'nvim-tree/nvim-web-devicons',
-  })
+  'ellisonleao/gruvbox.nvim',
+  { 'akinsho/bufferline.nvim', version = '^2.12.0', dependencies = 'nvim-tree/nvim-web-devicons' },
+  { 'nvim-lualine/lualine.nvim', dependencies = 'nvim-tree/nvim-web-devicons' },
 
   -- File tree browser
-  use({
-    'nvim-tree/nvim-tree.lua',
-    requires = 'nvim-tree/nvim-web-devicons',
-  })
+  { 'nvim-tree/nvim-tree.lua', dependencies = 'nvim-tree/nvim-web-devicons' },
 
   -- Terminal
-  use('akinsho/toggleterm.nvim')
+  'akinsho/toggleterm.nvim',
 
   -- Language support
-  use('williamboman/mason.nvim')
-  use('williamboman/mason-lspconfig.nvim')
-  use('neovim/nvim-lspconfig')
-  use('mfussenegger/nvim-dap')
-  use('simrat39/rust-tools.nvim')
-  use({
-    'nvim-treesitter/nvim-treesitter',
-    run = ':TSUpdate',
-    tag = 'v0.9.*',
-  })
-  use('simrat39/symbols-outline.nvim')
+  'williamboman/mason.nvim',
+  'williamboman/mason-lspconfig.nvim',
+  'neovim/nvim-lspconfig',
+  'mfussenegger/nvim-dap',
+  'simrat39/rust-tools.nvim',
+  { 'nvim-treesitter/nvim-treesitter', build = ':TSUpdate', version = '~0.9.1' },
+  'simrat39/symbols-outline.nvim',
 
   -- Completetion
-  use('hrsh7th/cmp-nvim-lsp')
-  use('hrsh7th/cmp-nvim-lsp-signature-help')
-  use('hrsh7th/cmp-buffer')
-  use('hrsh7th/cmp-path')
-  use('hrsh7th/cmp-cmdline')
-  use('hrsh7th/nvim-cmp')
-  use('hrsh7th/vim-vsnip')
+  'hrsh7th/cmp-nvim-lsp',
+  'hrsh7th/cmp-nvim-lsp-signature-help',
+  'hrsh7th/cmp-buffer',
+  'hrsh7th/cmp-path',
+  'hrsh7th/cmp-cmdline',
+  'hrsh7th/nvim-cmp',
+  'hrsh7th/vim-vsnip',
 
-  use({
-    'j-hui/fidget.nvim',
-    tag = 'v1.*',
-  })
-end)
+  { 'j-hui/fidget.nvim', version = '^1.1.0' },
+})
