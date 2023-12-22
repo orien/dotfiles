@@ -95,7 +95,7 @@ brew 'plantuml'
 brew 'svgcleaner'
 
 # Security and Encryption tools
-mas '1Password 7', id: 1333542190
+cask '1password'
 brew 'gpg2'
 brew 'openssl'
 
