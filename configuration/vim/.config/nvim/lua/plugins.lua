@@ -50,5 +50,8 @@ return require('packer').startup(function()
   use('hrsh7th/nvim-cmp')
   use('hrsh7th/vim-vsnip')
 
-  use('j-hui/fidget.nvim')
+  use({
+    'j-hui/fidget.nvim',
+    tag = 'v1.*',
+  })
 end)
