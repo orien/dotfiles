@@ -16,7 +16,7 @@
     "editor.fontLigatures": true,
     "editor.fontSize": 13,
     "editor.renderControlCharacters": true,
-    "editor.renderWhitespace": "boundary",
+    "editor.renderWhitespace": "all",
     "editor.tabSize": 2,
     "explorer.confirmDelete": false,
     "extensions.ignoreRecommendations": false,
@@ -31,20 +31,6 @@
         "suppressNoRepositoryWarning": false
     },
     "gitlens.keymap": "chorded",
-    "go.formatTool": "goimports",
-    "go.useLanguageServer": true,
-    "gopls": {
-        "usePlaceholders": true,
-        "staticcheck": false
-    },
-    "ruby.format": "rubocop",
-    "ruby.lint": {
-        "reek": false,
-        "rubocop": false,
-        "standard": false
-    },
-    "ruby.useBundler": true,
-    "ruby.useLanguageServer": true,
     "search.exclude": {
         "**/.bundle": true,
         "**/vendor": true,
@@ -74,5 +60,48 @@
             120
         ],
         "editor.semanticHighlighting.enabled": true
-    }
+    },
+    "vim.cursorStylePerMode.insert": "line",
+    "vim.joinspaces": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "[yaml]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2,
+        "editor.quickSuggestions": {
+            "other": true,
+            "comments": false,
+            "strings": true
+        },
+        "editor.autoIndent": "full"
+    },
+    "yaml.format.enable": true,
+    "yaml.trace.server": "verbose",
+    "yaml.customTags": [
+        "!And scalar",
+        "!If scalar",
+        "!Not",
+        "!Equals scalar",
+        "!Or scalar",
+        "!FindInMap scalar",
+        "!Base64",
+        "!Cidr",
+        "!Ref",
+        "!Sub",
+        "!GetAtt sequence",
+        "!GetAZs",
+        "!ImportValue sequence",
+        "!Select sequence",
+        "!Split sequence",
+        "!Join sequence",
+    ],
+    "yaml.schemas": {
+        "https://raw.githubusercontent.com/awslabs/goformation/master/schema/cloudformation.schema.json": "stacks/templates/*.yml"
+    },
+    "editor.autoClosingBrackets": "never",
+    "editor.autoClosingQuotes": "never",
+    "[go][go.mod]": {
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit"
+        }
+    },
 }
