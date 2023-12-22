@@ -38,7 +38,11 @@ return require('packer').startup(function()
   use('neovim/nvim-lspconfig')
   use('mfussenegger/nvim-dap')
   use('simrat39/rust-tools.nvim')
-  use('nvim-treesitter/nvim-treesitter')
+  use({
+    'nvim-treesitter/nvim-treesitter',
+    run = ':TSUpdate',
+    tag = 'v0.9.*',
+  })
   use('simrat39/symbols-outline.nvim')
 
   -- Completetion
