@@ -60,6 +60,6 @@ alias vi='nvim'
 
 # Remove one or more docker images
 drmi() {
-  local query="$1:-"
+  local query="${1:-}"
   docker images | sed 1d | fzf --query="$query" --no-sort --multi --tac | awk '{ print $3 }' | xargs -r docker rmi
 }
