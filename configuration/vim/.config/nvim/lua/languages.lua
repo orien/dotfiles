@@ -57,11 +57,14 @@ cmp.setup.cmdline(':', {
 
 -- Enable language servers for some programming languages
 local lspconfig = require('lspconfig')
-local capabilities = require('cmp_nvim_lsp').update_capabilities(vim.lsp.protocol.make_client_capabilities())
+local capabilities = require('cmp_nvim_lsp').default_capabilities()
 -- lspconfig.denols.setup({ capabilities = capabilities }) -- Typescript (Deno projects)
+lspconfig.elmls.setup({ capabilities = capabilities }) -- Elm
 lspconfig.gopls.setup({ capabilities = capabilities }) -- Go
 lspconfig.solargraph.setup({ capabilities = capabilities }) -- Ruby
-lspconfig.sumneko_lua.setup({ -- Lua
+lspconfig.ruby_ls.setup({ capabilities = capabilities }) -- Ruby
+-- lspconfig.sorbet.setup({ capabilities = capabilities, cmd = { 'srb', 'tc', '--lsp', '--disable-watchman' } }) -- Ruby
+lspconfig.lua_ls.setup({ -- Lua
   capabilities = capabilities,
   settings = {
     Lua = {
