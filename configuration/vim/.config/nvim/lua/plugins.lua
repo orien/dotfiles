@@ -14,8 +14,6 @@ require('lazy').setup({
 
   'lewis6991/gitsigns.nvim',
 
-  'lewis6991/impatient.nvim',
-
   'folke/which-key.nvim',
 
   -- Visuals
