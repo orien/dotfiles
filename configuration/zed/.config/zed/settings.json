@@ -1,0 +1,12 @@
+// Zed settings
+// https://zed.dev/docs/configuring-zed
+{
+  "vim_mode": true,
+  "theme": "Gruvbox Dark Hard",
+  "terminal": {
+    "font_family": "MesloLGL Nerd Font Mono",
+    "line_height": "standard"
+  },
+  "buffer_font_size": 16,
+  "ui_font_size": 16
+}
