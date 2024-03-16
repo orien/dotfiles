@@ -2,11 +2,15 @@
 // https://zed.dev/docs/configuring-zed
 {
   "vim_mode": true,
+  "relative_line_numbers": true,
+  "format_on_save": "off",
   "theme": "Gruvbox Dark Hard",
   "terminal": {
     "font_family": "MesloLGL Nerd Font Mono",
     "line_height": "standard"
   },
   "buffer_font_size": 16,
-  "ui_font_size": 16
+  "tab_size": 2,
+  "ui_font_size": 16,
+  "wrap_guides": [80, 120]
 }
