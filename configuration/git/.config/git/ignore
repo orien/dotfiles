@@ -11,3 +11,4 @@
 .elixir_ls
 .irb_history
 .env
+.bundle
