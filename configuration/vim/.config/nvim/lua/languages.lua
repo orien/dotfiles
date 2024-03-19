@@ -132,6 +132,8 @@ require('nvim-treesitter.configs').setup({
     'typescript',
     'vue',
   },
+  ignore_install = {},
+  modules = {},
   sync_install = false,
   auto_install = true,
   highlight = {
