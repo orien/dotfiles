@@ -26,5 +26,3 @@ stow_home vim
 stow_home tools
 stow_home --no-folding zed
 stow_home lang
-
-vim '+call minpac#update()' +quitall
