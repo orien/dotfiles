@@ -92,7 +92,6 @@ cask 'imageoptim'
 brew 'ispell'
 brew 'pandoc'
 brew 'plantuml'
-brew 'svgcleaner'
 
 # Security and Encryption tools
 cask '1password'
