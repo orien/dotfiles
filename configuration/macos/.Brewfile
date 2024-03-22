@@ -144,3 +144,4 @@ cask 'alfred'
 cask 'dash'
 # cask 'shortcat'
 mas 'Things 3', id: 904280696
+mas "MeetingBar", id: 1532419400
