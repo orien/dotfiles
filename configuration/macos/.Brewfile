@@ -137,8 +137,7 @@ cask 'font-inconsolata'
 cask 'font-meslo-lg-nerd-font'
 
 # Continuous Integration
-tap 'buildkite/cli'
-brew 'bk'
+brew 'buildkite/buildkite/buildkite-cli'
 
 # Productivity and Niceties
 cask 'alfred'
