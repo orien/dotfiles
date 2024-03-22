@@ -41,7 +41,7 @@
     "terminal.external.osxExec": "iTerm.app",
     "terminal.integrated.fontFamily": "MesloLGL Nerd Font Mono",
     "window.zoomLevel": 1,
-    "workbench.colorTheme": "GitHub Dark Dimmed",
+    "workbench.colorTheme": "Gruvbox Dark Hard",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.sideBar.location": "left",
     "[typescript]": {
