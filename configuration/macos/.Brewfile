@@ -52,7 +52,6 @@ brew 'packer'
 
 # Web Development
 brew 'caddy'
-cask 'chromedriver'
 brew 'libxml2'
 
 # Networking
