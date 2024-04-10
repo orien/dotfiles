@@ -13,10 +13,12 @@ brew 'stow'
 # Shells, CLI, process management
 brew 'asdf'
 brew 'bat'
+brew 'bottom'
 brew 'dash'
 brew 'direnv'
 brew 'fd'
 brew 'findutils'
+brew 'gdu'
 brew 'gnu-sed'
 cask 'iTerm2'
 brew 'pidof'
@@ -36,6 +38,7 @@ brew 'gist'
 brew 'git'
 brew 'git-delta'
 brew 'git-filter-repo'
+brew 'lazygit'
 
 # AWS and Infrastructure
 cask 'aws-vault'
@@ -107,6 +110,7 @@ brew 'sqlite'
 # Editors
 brew 'neovim'
 cask 'jetbrains-toolbox'
+brew 'tree-sitter'
 cask 'visual-studio-code'
 cask 'zed'
 
