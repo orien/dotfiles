@@ -21,7 +21,6 @@ which -s stow || {
 
 stow_home zsh
 stow_home --no-folding macos
-stow_home git
 stow_home vim
 stow_home tools
 stow_home --no-folding zed
