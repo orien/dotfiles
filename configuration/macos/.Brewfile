@@ -73,6 +73,7 @@ cask 'brave-browser'
 # Haskell Ecosystem
 brew 'cabal-install'
 brew 'ghc'
+brew 'ghcup'
 brew 'haskell-stack'
 
 # Java Ecosystem
