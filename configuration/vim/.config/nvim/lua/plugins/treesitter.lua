@@ -8,6 +8,7 @@ return {
     opts.ensure_installed = require("astrocore").list_insert_unique(opts.ensure_installed, {
       "gitcommit",
       "gitignore",
+      "ruby",
       "vim",
     })
   end,
