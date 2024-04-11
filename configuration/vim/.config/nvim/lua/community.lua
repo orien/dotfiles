@@ -18,7 +18,6 @@ return {
   { import = "astrocommunity.pack.kotlin" },
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.markdown" },
-  { import = "astrocommunity.pack.ruby" },
   { import = "astrocommunity.pack.rust" },
   { import = "astrocommunity.pack.sql" },
   { import = "astrocommunity.pack.terraform" },
