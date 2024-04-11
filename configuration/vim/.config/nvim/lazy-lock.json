@@ -37,6 +37,7 @@
   "neodev.nvim": { "branch": "main", "commit": "da1562e1e3df0e994ddc52cb4ba22376a5d7f2fc" },
   "neotest": { "branch": "master", "commit": "f03a78cef74db5638e4312e18b767294a90de8da" },
   "neotest-haskell": { "branch": "master", "commit": "0828c4c6bad879b5be0c08b5581176081f567dbe" },
+  "neotest-rspec": { "branch": "main", "commit": "c1c3f36e1b1a23698534e6326e90876f87b773a4" },
   "none-ls.nvim": { "branch": "main", "commit": "0d42ba8d506242b2252d2d2885a7f6f4f5b2bcb2" },
   "nui.nvim": { "branch": "main", "commit": "a0fd35fcbb4cb479366f1dc5f20145fd718a3733" },
   "nvim-autopairs": { "branch": "master", "commit": "dbfc1c34bed415906395db8303c71039b3a3ffb4" },
