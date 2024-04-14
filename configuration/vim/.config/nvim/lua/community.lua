@@ -25,5 +25,7 @@ return {
   { import = "astrocommunity.pack.vue" },
   { import = "astrocommunity.pack.yaml" },
 
+  { import = "astrocommunity.recipes.neovide" },
+
   { import = "astrocommunity.test.neotest" },
 }
