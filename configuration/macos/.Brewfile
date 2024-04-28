@@ -49,6 +49,7 @@ brew 'iamy'
 brew 'packer'
 
 # Web Development
+cask 'bruno'
 brew 'caddy'
 brew 'libxml2'
 
