@@ -45,8 +45,6 @@ cask 'aws-vault'
 brew 'awscli'
 brew 'dive'
 cask 'docker'
-tap 'heroku/brew'
-brew 'heroku/brew/heroku'
 brew 'iamy'
 brew 'packer'
 
