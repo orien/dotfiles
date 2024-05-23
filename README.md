@@ -1,8 +1,7 @@
 # Orien's dotfiles
 
-This Git repository contains my Unix development configuration. I predominantly work on macOS, using [iTerm2] as my terminal of choice. Most tools are configured for web programming with Ruby, Javascript, and Go in [Neovim].
+This Git repository contains my Unix development configuration.  Most tools are configured for web programming with Ruby, Javascript, and Rust in [Neovim] on macOS.
 
-[iTerm2]: https://iterm2.com/
 [Neovim]: https://neovim.io/
 
 ### Clone and Install

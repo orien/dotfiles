@@ -20,10 +20,10 @@ brew 'fd'
 brew 'findutils'
 brew 'gdu'
 brew 'gnu-sed'
-cask 'iTerm2'
 brew 'pidof'
 brew 'pv'
 brew 'shellcheck'
+cask 'wezterm'
 
 # Text Search
 brew 'ctags'
