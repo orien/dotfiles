@@ -12,3 +12,4 @@
 .irb_history
 .env
 .bundle
+.index.yml
