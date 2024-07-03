@@ -12,6 +12,7 @@ return {
   { import = "astrocommunity.motion.nvim-surround" },
 
   { import = "astrocommunity.pack.bash" },
+  { import = "astrocommunity.pack.cs" },
   { import = "astrocommunity.pack.docker" },
   { import = "astrocommunity.pack.elm" },
   { import = "astrocommunity.pack.haskell" },
