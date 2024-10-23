@@ -23,6 +23,8 @@ brew 'gnu-sed'
 brew 'pidof'
 brew 'pv'
 brew 'shellcheck'
+brew 'starship'
+cask 'warp'
 cask 'wezterm'
 
 # Text Search
