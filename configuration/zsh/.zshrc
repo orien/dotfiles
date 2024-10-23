@@ -6,7 +6,6 @@ fi
 #========= Oh My ZSH config =========
 
 ZSH="$HOME/.dotfiles/repos/oh-my-zsh"
-ZSH_THEME="powerlevel10k/powerlevel10k"
 DEFAULT_USER="orien"
 DISABLE_AUTO_UPDATE="true"
 DISABLE_CORRECTION="true"
@@ -31,6 +30,7 @@ plugins=(
   forgit
   rust
   stack-master
+  starship
   terraform
   npm
   zsh-syntax-highlighting
