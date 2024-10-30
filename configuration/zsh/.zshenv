@@ -11,4 +11,5 @@ export FZF_DEFAULT_OPTS="
 --bind='ctrl-r:toggle-all'
 --bind='ctrl-s:toggle-sort'
 --bind='?:toggle-preview'
+--layout=reverse
 "
