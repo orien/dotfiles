@@ -1,6 +1,17 @@
 // Zed settings
 // https://zed.dev/docs/configuring-zed
 {
+  "assistant": {
+    "default_model": {
+      "provider": "copilot_chat",
+      "model": "gpt-4o"
+    },
+    "version": "2"
+  },
+  "telemetry": {
+    "metrics": false,
+    "diagnostics": false
+  },
   "vim_mode": true,
   "relative_line_numbers": true,
   "format_on_save": "off",
@@ -9,8 +20,22 @@
     "font_family": "MesloLGL Nerd Font Mono",
     "line_height": "standard"
   },
-  "buffer_font_size": 16,
+  "buffer_font_size": 15,
   "tab_size": 2,
-  "ui_font_size": 16,
-  "wrap_guides": [80, 120]
+  "ui_font_size": 15,
+  "wrap_guides": [80, 120],
+  "languages": {
+    "Ruby": {
+      "language_servers": ["ruby-lsp", "rubocop", "!solargraph"]
+    }
+  },
+  "lsp": {
+    "ruby-lsp": {
+      "initialization_options": {
+        "enabledFeatures": {
+          "diagnostics": false
+        }
+      }
+    }
+  }
 }
