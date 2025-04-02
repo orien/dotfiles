@@ -1,6 +1,10 @@
 // Zed settings
 // https://zed.dev/docs/configuring-zed
 {
+  "icon_theme": "Material Icon Theme",
+  "features": {
+    "edit_prediction_provider": "zed"
+  },
   "assistant": {
     "default_model": {
       "provider": "copilot_chat",
