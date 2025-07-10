@@ -7,10 +7,10 @@ DISABLE_CORRECTION="true"
 VI_MODE_SET_CURSOR="true"
 
 plugins=(
+  brew
   vi-mode
   asdf
   aws
-  brew
   bundler
   colored-man-pages
   direnv
