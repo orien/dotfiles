@@ -24,7 +24,6 @@
 [delta "decorations"]
 	syntax-theme = gruvbox-dark
 	hyperlinks = true
-	hyperlinks-file-link-format = vscode://file/{path}:{line}
 [delta "interactive"]
 	keep-plus-minus-markers = false
 [advice]
