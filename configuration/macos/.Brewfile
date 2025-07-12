@@ -65,7 +65,7 @@ brew 'gnu-tar'
 # Web Browsers
 cask 'brave-browser'
 # cask 'firefox-developer-edition'
-# cask 'google-chrome'
+cask 'google-chrome'
 # cask 'vivaldi'
 
 # Haskell Ecosystem
