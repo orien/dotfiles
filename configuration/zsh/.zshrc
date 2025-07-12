@@ -48,7 +48,8 @@ alias e='emacs'
 alias vim='nvim'
 alias vi='nvim'
 
-. ~/.asdf/plugins/java/set-java-home.zsh
+export PATH="$(brew --prefix openjdk)/bin:$PATH"
+export JAVA_HOME="$(brew --prefix openjdk)"
 
 # Remove one or more docker images
 drmi() {
