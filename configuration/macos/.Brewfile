@@ -6,9 +6,7 @@ brew 'jq'
 brew 'stow'
 
 # Communications
-# cask 'amazon-chime'
-# cask 'slack'
-# mas 'Textual 7', id: 1262957439
+cask 'slack'
 
 # Shells, CLI, process management
 brew 'asdf'
