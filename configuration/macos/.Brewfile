@@ -124,7 +124,6 @@ brew 'buildkite/buildkite/buildkite-cli'
 # Productivity and Niceties
 cask 'alfred'
 cask 'dash'
-# cask 'shortcat'
 mas 'Things 3', id: 904280696
 cask 'thingsmacsandboxhelper'
 mas "MeetingBar", id: 1532419400
