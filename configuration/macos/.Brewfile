@@ -107,7 +107,7 @@ brew 'gpg2'
 brew 'openssl'
 
 # Databases
-brew 'mysql-client@5.7'
+brew 'mysql-client@8.0'
 brew 'postgresql'
 brew 'redis'
 brew 'sqlite'
