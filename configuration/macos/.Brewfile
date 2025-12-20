@@ -19,6 +19,7 @@ brew 'findutils'
 brew 'gdu'
 cask 'ghostty'
 brew 'gnu-sed'
+brew 'gum'
 brew 'pidof'
 brew 'pv'
 brew 'shellcheck'
@@ -79,6 +80,17 @@ brew 'python'
 # Lua
 brew 'lua'
 brew 'luarocks'
+
+# Odin
+brew 'odin'
+
+# Go
+brew 'go'
+
+# Agentic AI tools
+cask 'claude-code'
+cask 'codex'
+brew 'gemini-cli'
 
 # Documentation and Diagramming
 brew 'adr-tools'
