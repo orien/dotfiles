@@ -47,7 +47,6 @@ cask 'docker-desktop'
 brew 'packer'
 
 # Web Development
-cask 'bruno'
 brew 'caddy'
 brew 'libxml2'
 
@@ -55,7 +54,6 @@ brew 'libxml2'
 brew 'curl'
 brew 'dnsmasq', restart_service: true
 brew 'nmap'
-brew 'wget'
 
 # Backup, Archiving and Compression
 # cask 'google-drive-file-stream'
@@ -63,9 +61,7 @@ brew 'gnu-tar'
 
 # Web Browsers
 cask 'brave-browser'
-# cask 'firefox-developer-edition'
 cask 'google-chrome'
-# cask 'vivaldi'
 
 # Haskell Ecosystem
 brew 'cabal-install'
