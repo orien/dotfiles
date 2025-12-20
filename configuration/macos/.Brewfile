@@ -107,7 +107,6 @@ brew 'sqlite'
 
 # Editors
 brew 'neovim'
-cask 'jetbrains-toolbox'
 brew 'tree-sitter'
 cask 'zed'
 
