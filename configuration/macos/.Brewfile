@@ -29,7 +29,7 @@ brew 'ctags'
 brew 'fzf'
 brew 'ripgrep'
 
-# Github and SCM
+# GitHub and SCM
 tap 'github/gh'
 brew 'github/gh/gh'
 cask 'fork'
@@ -40,11 +40,10 @@ brew 'git-filter-repo'
 brew 'lazygit'
 
 # AWS and Infrastructure
-cask 'aws-vault'
+brew 'aws-vault'
 brew 'awscli'
 brew 'dive'
-cask 'docker'
-brew 'iamy'
+cask 'docker-desktop'
 brew 'packer'
 
 # Web Development
@@ -125,6 +124,6 @@ cask 'alfred'
 cask 'dash'
 mas 'Things 3', id: 904280696
 cask 'thingsmacsandboxhelper'
-mas "MeetingBar", id: 1532419400
+mas 'MeetingBar', id: 1532419400
 
-cask "spotify"
+cask 'spotify'
