@@ -77,14 +77,20 @@ brew 'maven'
 # Python Ecosystem
 brew 'python'
 
-# Lua
+# Lua Ecosystem
 brew 'lua'
 brew 'luarocks'
 
-# Odin
+# Odin Ecosystem
 brew 'odin'
 
-# Go
+# Pony Ecosystem
+brew 'ponyc'
+
+# OCaml Ecosystem
+brew 'ocaml'
+
+# Go Ecosystem
 brew 'go'
 
 # Agentic AI tools
