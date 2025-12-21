@@ -51,8 +51,11 @@ alias vi='nvim'
 export PATH="$(brew --prefix openjdk)/bin:$PATH"
 export JAVA_HOME="$(brew --prefix openjdk)"
 
+export PATH="/opt/homebrew/opt/rustup/bin:$HOME/go/bin:$PATH"
+
 # Remove one or more docker images
 drmi() {
   local query="${1:-}"
   docker images | sed 1d | fzf --query="$query" --no-sort --multi --tac | awk '{ print $3 }' | xargs -r docker rmi
 }
+# export PATH="/opt/homebrew/opt/postgresql@16/bin:$PATH"
