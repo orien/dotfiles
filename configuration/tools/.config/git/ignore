@@ -13,3 +13,7 @@
 .env
 .bundle
 .index.yml
+.zed
+
+**/.claude/settings.local.json
+CRUSH.md
