@@ -48,10 +48,15 @@ alias e='emacs'
 alias vim='nvim'
 alias vi='nvim'
 
+# Add Homebrew-managed OpenJDK to PATH
 export PATH="$(brew --prefix openjdk)/bin:$PATH"
 export JAVA_HOME="$(brew --prefix openjdk)"
 
-export PATH="/opt/homebrew/opt/rustup/bin:$HOME/go/bin:$PATH"
+# Add Homebrew-managed Go to PATH
+export PATH="$HOME/go/bin:$PATH"
+
+# Add Homebrew-managed Rust to PATH
+export PATH="/opt/homebrew/opt/rustup/bin:$PATH"
 
 # Remove one or more docker images
 drmi() {
