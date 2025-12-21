@@ -90,8 +90,13 @@ brew 'ponyc'
 # OCaml Ecosystem
 brew 'ocaml'
 
+# Rust Ecosystem
+brew 'rustup'
+
 # Go Ecosystem
 brew 'go'
+brew 'golangci-lint'
+brew 'govulncheck'
 
 # Agentic AI tools
 cask 'claude-code'
