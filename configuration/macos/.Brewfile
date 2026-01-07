@@ -64,6 +64,10 @@ brew 'gnu-tar'
 cask 'brave-browser'
 cask 'google-chrome'
 
+# Programming language support
+brew 'tree-sitter'
+brew 'tree-sitter-cli'
+
 # Haskell Ecosystem
 brew 'cabal-install'
 brew 'ghc'
@@ -125,7 +129,6 @@ brew 'sqlite'
 
 # Editors
 brew 'neovim'
-brew 'tree-sitter'
 cask 'zed'
 
 # Fonts
