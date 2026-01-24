@@ -1,7 +1,9 @@
 # Orien's dotfiles
 
-This Git repository contains my Unix development configuration.  Most tools are configured for web programming with Ruby, Javascript, and Rust in [Neovim] on macOS.
+This Git repository contains my Unix development configuration.  Most tools are configured for web programming with Ruby, Javascript, Rust, Go, and [Pony] in [Zed] and [Neovim] on macOS.
 
+[Pony]: https://ponylang.io/
+[Zed]: https://zed.dev/
 [Neovim]: https://neovim.io/
 
 ### Clone and Install
