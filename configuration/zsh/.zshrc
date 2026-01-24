@@ -58,6 +58,9 @@ export PATH="$HOME/go/bin:$PATH"
 # Add Homebrew-managed Rust to PATH
 export PATH="/opt/homebrew/opt/rustup/bin:$PATH"
 
+# User-specific scripts and programs
+export PATH="$HOME/bin:$PATH"
+
 # Remove one or more docker images
 drmi() {
   local query="${1:-}"
