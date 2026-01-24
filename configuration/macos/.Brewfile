@@ -30,9 +30,10 @@ brew 'ctags'
 brew 'fzf'
 brew 'ripgrep'
 
-# GitHub and SCM
+# Source code management
 tap 'github/gh'
 brew 'github/gh/gh'
+brew 'codeberg-cli'
 cask 'fork'
 brew 'gist'
 brew 'git'
