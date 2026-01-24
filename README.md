@@ -9,7 +9,7 @@ This Git repository contains my Unix development configuration.  Most tools are 
 This project includes a no-frills shell script that positions symbolic links to configuration in the home directory.
 
 ```bash
-git clone --recursive git://github.com/orien/dotfiles.git  ~/.dotfiles
+git clone --recursive ssh://git@codeberg.org/orien/dotfiles.git  ~/.dotfiles
 ~/.dotfiles/script/setup
 ```
 
