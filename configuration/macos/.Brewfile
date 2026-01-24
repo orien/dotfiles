@@ -39,6 +39,8 @@ brew 'gist'
 brew 'git'
 brew 'git-delta'
 brew 'git-filter-repo'
+brew 'jj'
+brew 'jjui'
 brew 'lazygit'
 
 # AWS and Infrastructure
