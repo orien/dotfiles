@@ -19,7 +19,7 @@
     "play_sound_when_agent_done": true,
     "default_model": {
       "provider": "anthropic",
-      "model": "claude-sonnet-4-5-latest"
+      "model": "claude-sonnet-4-5-thinking-latest"
     },
     "model_parameters": []
   },
