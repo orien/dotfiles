@@ -21,7 +21,5 @@ When bootstrapping a new Apple computer, I use [Strap]. Strap handles downloadin
 
 ```bash
 git clone https://github.com/MikeMcQuaid/strap.git
- export STRAP_GITHUB_USER=???
- export STRAP_GITHUB_TOKEN=???
-strap/bin/strap.sh
+./strap/bin/strap.sh
 ```
