@@ -48,7 +48,6 @@ brew 'aws-vault'
 brew 'awscli'
 brew 'dive'
 cask 'docker-desktop'
-brew 'packer'
 
 # Web Development
 brew 'caddy'
