@@ -52,6 +52,7 @@ cask 'docker-desktop'
 # Web Development
 brew 'caddy'
 brew 'libxml2'
+brew 'libyaml'
 
 # Networking
 brew 'curl'
