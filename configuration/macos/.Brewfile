@@ -1,4 +1,3 @@
-tap 'homebrew/cask-versions'
 brew 'mas'
 
 brew 'dos2unix'
@@ -137,7 +136,6 @@ brew 'neovim'
 cask 'zed'
 
 # Fonts
-tap 'homebrew/cask-fonts'
 cask 'font-cascadia-code'
 cask 'font-fira-code'
 cask 'font-inconsolata'
