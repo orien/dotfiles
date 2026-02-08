@@ -94,6 +94,7 @@ brew 'odin'
 # Pony Ecosystem
 brew 'ponyc'
 brew 'corral'
+brew 'cmake'
 
 # OCaml Ecosystem
 brew 'ocaml'
