@@ -2,26 +2,37 @@
 return {
 
   {
-    "goolord/alpha-nvim",
-    opts = function(_, opts)
-      -- customize the dashboard header
-      opts.section.header.val = {
-        "      ▄▄▄  ▪  ▄▄▄ . ▐ ▄ .▄▄ ·       ",
-        "▪     ▀▄ █·██ ▀▄.▀·•█▌▐█▐█ ▀.       ",
-        " ▄█▀▄ ▐▀▀▄ ▐█·▐▀▀▪▄▐█▐▐▌▄▀▀▀█▄      ",
-        "▐█▌.▐▌▐█•█▌▐█▌▐█▄▄▌██▐█▌▐█▄▪▐█      ",
-        " ▀█▄▀▪.▀  ▀▀▀▀ ▀▀▀ ▀▀ █▪ ▀▀▀▀       ",
-        "     ▄▄▄ .·▄▄▄▄  ▪  ▄▄▄▄▄      ▄▄▄  ",
-        "     ▀▄.▀·██▪ ██ ██ •██  ▪     ▀▄ █·",
-        "     ▐▀▀▪▄▐█· ▐█▌▐█· ▐█.▪ ▄█▀▄ ▐▀▀▄ ",
-        "     ▐█▄▄▌██. ██ ▐█▌ ▐█▌·▐█▌.▐▌▐█•█▌",
-        "      ▀▀▀ ▀▀▀▀▀• ▀▀▀ ▀▀▀  ▀█▄▀▪.▀  ▀",
-      }
-      return opts
-    end,
+    "ray-x/lsp_signature.nvim",
+    event = "BufRead",
+    config = function() require("lsp_signature").setup() end,
   },
 
-  -- Disable better escape
+  -- == Examples of Overriding Plugins ==
+
+  -- customize dashboard options
+  {
+    "folke/snacks.nvim",
+    opts = {
+      dashboard = {
+        preset = {
+          header = table.concat({
+            "      ▄▄▄  ▪  ▄▄▄ . ▐ ▄ .▄▄ ·       ",
+            "▪     ▀▄ █·██ ▀▄.▀·•█▌▐█▐█ ▀.       ",
+            " ▄█▀▄ ▐▀▀▄ ▐█·▐▀▀▪▄▐█▐▐▌▄▀▀▀█▄      ",
+            "▐█▌.▐▌▐█•█▌▐█▌▐█▄▄▌██▐█▌▐█▄▪▐█      ",
+            " ▀█▄▀▪.▀  ▀▀▀▀ ▀▀▀ ▀▀ █▪ ▀▀▀▀       ",
+            "     ▄▄▄ .·▄▄▄▄  ▪  ▄▄▄▄▄      ▄▄▄  ",
+            "     ▀▄.▀·██▪ ██ ██ •██  ▪     ▀▄ █·",
+            "     ▐▀▀▪▄▐█· ▐█▌▐█· ▐█.▪ ▄█▀▄ ▐▀▀▄ ",
+            "     ▐█▄▄▌██. ██ ▐█▌ ▐█▌·▐█▌.▐▌▐█•█▌",
+            "      ▀▀▀ ▀▀▀▀▀• ▀▀▀ ▀▀▀  ▀█▄▀▪.▀  ▀",
+          }, "\n"),
+        },
+      },
+    },
+  },
+
+  -- You can disable default plugins as follows:
   { "max397574/better-escape.nvim", enabled = false },
 
   -- You can also easily customize additional setup of plugins that is outside of the plugin's setup call
