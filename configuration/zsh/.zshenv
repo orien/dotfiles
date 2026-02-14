@@ -1,4 +1,3 @@
-PATH="$PATH:$HOME/bin"
 export FZF_DEFAULT_COMMAND='rg --files'
 export VISUAL=hx
 export DELTA_PAGER='less -rR'
