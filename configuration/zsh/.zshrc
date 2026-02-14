@@ -38,9 +38,6 @@ source "$ZSH/oh-my-zsh.sh"
 
 export KEYTIMEOUT=15
 
-#export EDITOR='/Applications/Emacs.app/Contents/MacOS/bin/emacsclient'
-alias emacs='/Applications/Emacs.app/Contents/MacOS/bin/emacsclient --no-wait'
-alias e='emacs'
 alias vim='nvim'
 alias vi='nvim'
 
