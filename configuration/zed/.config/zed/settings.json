@@ -36,7 +36,7 @@
     "metrics": false,
     "diagnostics": false
   },
-  "vim_mode": true,
+  "helix_mode": true,
   "relative_line_numbers": "enabled",
   "format_on_save": "off",
   "terminal": {
