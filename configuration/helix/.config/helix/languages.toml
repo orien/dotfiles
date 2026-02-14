@@ -1,0 +1,6 @@
+[language-server.pony-lsp]
+command = "pony-lsp"
+
+[[language]]
+name = "ponylang"
+language-servers = ["pony-lsp"]
