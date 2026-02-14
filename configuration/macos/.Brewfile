@@ -23,6 +23,7 @@ brew 'pidof'
 brew 'pv'
 brew 'shellcheck'
 brew 'starship'
+brew 'tree'
 
 # Text Search
 brew 'ctags'
