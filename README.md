@@ -21,6 +21,6 @@ When bootstrapping a new Apple computer, I use [Strap]. Strap handles downloadin
 [Strap]: https://github.com/MikeMcQuaid/strap
 
 ```bash
-git clone https://github.com/MikeMcQuaid/strap.git
-./strap/bin/strap.sh
+curl -sSL https://github.com/MikeMcQuaid/strap/archive/refs/heads/main.tar.gz | tar xz
+STRAP_GITHUB_USER=orien ./strap-main/bin/strap.sh
 ```
