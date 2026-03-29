@@ -53,9 +53,11 @@
     }
   },
   "lsp": {
-    "pony-language-server": {
+    "pony-lsp": {
       "settings": {
-        "pony_stdlib_path": "/opt/homebrew/Cellar/ponyc/0.60.4/packages"
+        "executable": "/Users/orienmadgwick/pony/bin/pony-lsp",
+        "ponypath": ["/path1"],
+        "defines": ["FOO", "BAT", "BAZ"]
       }
     },
     "ruby-lsp": {
