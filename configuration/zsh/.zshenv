@@ -1,5 +1,5 @@
 export FZF_DEFAULT_COMMAND='rg --files'
-export VISUAL=hx
+export VISUAL=nvim
 export DELTA_PAGER='less -rR'
 
 export FZF_DEFAULT_OPTS="
