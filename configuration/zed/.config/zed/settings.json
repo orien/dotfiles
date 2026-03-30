@@ -22,7 +22,10 @@
   },
   "show_edit_predictions": true,
   "agent": {
-    "always_allow_tool_actions": true,
+    "tool_permissions": {
+      "default": "allow"
+    },
+    "default_profile": "write",
     "use_modifier_to_send": true,
     "enable_feedback": false,
     "play_sound_when_agent_done": true,
@@ -31,6 +34,11 @@
       "model": "claude-sonnet-4-6-thinking-latest"
     },
     "model_parameters": []
+  },
+  "agent_servers": {
+    "claude-acp": {
+      "type": "registry"
+    }
   },
   "telemetry": {
     "metrics": false,
