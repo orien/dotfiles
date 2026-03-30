@@ -1,6 +1,14 @@
 ---@type LazySpec
 return {
 
+  -- AstroNvim pins aerial.nvim to "^2.2" in its lazy_snapshot.lua
+  -- (github.com/AstroNvim/AstroNvim, lua/astronvim/lazy_snapshot.lua).
+  -- The fix for Neovim 0.12 compatibility (removal of the deprecated
+  -- iter_matches({all = false}) API) landed in aerial.nvim v3.1.0 and has
+  -- not been backported to the v2 series. This override bumps the version
+  -- constraint to "^3" so that lazy.nvim will install v3.x instead.
+  { "stevearc/aerial.nvim", version = "^3" },
+
   {
     "ray-x/lsp_signature.nvim",
     event = "BufRead",
