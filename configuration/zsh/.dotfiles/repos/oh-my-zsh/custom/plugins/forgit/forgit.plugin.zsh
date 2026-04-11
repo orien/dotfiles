@@ -1,5 +1,5 @@
 
-export FORGIT_INSTALL=~/.dotfiles/repos/forgit
+export FORGIT_INSTALL="$(brew --prefix)/opt/forgit/share/forgit"
 export FORGIT_NO_ALIASES=1
 
 source "$FORGIT_INSTALL/forgit.plugin.zsh"
