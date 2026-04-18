@@ -11,6 +11,8 @@ return {
 
   { import = "astrocommunity.motion.nvim-surround" },
 
+  -- Ruby is configured manually (ruby.lua, neotest.lua, mason.lua, treesitter.lua):
+  -- astrocommunity.pack.ruby uses solargraph instead of ruby-lsp and has no neotest integration
   { import = "astrocommunity.pack.bash" },
   { import = "astrocommunity.pack.docker" },
   { import = "astrocommunity.pack.elm" },
