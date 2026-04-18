@@ -88,6 +88,7 @@ brew 'python'
 # Lua Ecosystem
 brew 'lua'
 brew 'luarocks'
+brew 'lua-language-server'
 brew 'selene'
 brew 'stylua'
 

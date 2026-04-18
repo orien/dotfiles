@@ -11,10 +11,6 @@ return {
       ensure_installed = {
         "ruby-lsp",
 
-        -- install language servers
-        "lua-language-server",
-
-
       },
     },
   },
