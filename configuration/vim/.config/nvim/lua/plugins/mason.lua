@@ -14,11 +14,7 @@ return {
         -- install language servers
         "lua-language-server",
 
-        -- install formatters
-        "stylua",
 
-        -- install any other package
-        "tree-sitter-cli",
       },
     },
   },

@@ -88,6 +88,8 @@ brew 'python'
 # Lua Ecosystem
 brew 'lua'
 brew 'luarocks'
+brew 'selene'
+brew 'stylua'
 
 # Odin Ecosystem
 brew 'odin'
