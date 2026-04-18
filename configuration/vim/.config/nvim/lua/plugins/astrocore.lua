@@ -3,10 +3,6 @@
 -- NOTE: We highly recommend setting up the Lua Language Server (`:LspInstall lua_ls`)
 --       as this provides autocomplete and documentation while editing
 
-local rubyterm = vim.fn.executable "bin/rails" == 1 and "bin/rails console"
-  or vim.fn.executable "bin/console" == 1 and "bin/console"
-  or vim.fn.executable "irb" and "irb"
-
 ---@type LazySpec
 return {
   "AstroNvim/astrocore",
