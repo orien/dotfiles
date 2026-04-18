@@ -11,7 +11,7 @@ return {
 
   {
     "ray-x/lsp_signature.nvim",
-    event = "BufRead",
+    event = "LspAttach",
     config = function() require("lsp_signature").setup() end,
   },
 
