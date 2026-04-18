@@ -11,6 +11,7 @@ return {
 
   {
     "ray-x/lsp_signature.nvim",
+    commit = "af7e4074d85d785cf6614352ba9ad3b28a1f8a56",
     event = "LspAttach",
     config = function() require("lsp_signature").setup() end,
   },
