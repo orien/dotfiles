@@ -10,6 +10,7 @@
 .elixir_ls
 .irb_history
 .env
+.envrc
 .bundle
 .index.yml
 .zed
@@ -17,3 +18,5 @@
 **/.claude/settings.local.json
 CLAUDE.local.md
 CRUSH.md
+
+tmp/
