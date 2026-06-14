@@ -1,6 +1,7 @@
 // Zed settings
 // https://zed.dev/docs/configuring-zed
 {
+  "cli_default_open_behavior": "new_window",
   "hover_popover_delay": 200,
   "autosave": {
     "after_delay": {
