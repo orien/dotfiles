@@ -29,7 +29,7 @@
     "default_profile": "write",
     "use_modifier_to_send": true,
     "enable_feedback": false,
-    "play_sound_when_agent_done": true,
+    "play_sound_when_agent_done": "always",
     "default_model": {
       "provider": "anthropic",
       "model": "claude-sonnet-4-6-thinking-latest"
