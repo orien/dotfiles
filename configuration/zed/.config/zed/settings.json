@@ -64,7 +64,7 @@
   "lsp": {
     "pony-lsp": {
       "settings": {
-        "executable": "/Users/orienmadgwick/pony/bin/pony-lsp",
+        "executable": "/Users/orien/pony/bin/pony-lsp",
         "ponypath": ["/path1"],
         "defines": ["FOO", "BAT", "BAZ"]
       }
