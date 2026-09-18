@@ -139,6 +139,8 @@ brew 'sqlite'
 
 # Editors
 brew 'neovim'
+tap 'unstablebuild/rune'
+cask 'unstablebuild/rune/rune'
 cask 'zed'
 
 # Fonts
