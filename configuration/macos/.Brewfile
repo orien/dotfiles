@@ -138,7 +138,6 @@ brew 'redis'
 brew 'sqlite'
 
 # Editors
-brew 'helix'
 brew 'neovim'
 cask 'zed'
 
