@@ -12,7 +12,7 @@
 [rebase]
 	autosquash = true
 [alias]
-	prune-merged = !git branch --merged | grep -v \"\\*\" | grep -v main | xargs -n 1 git branch -d
+	prune-merged = !git branch --merged | grep -v \"\\*\" | grep -vE \"^\\s*(main|master)$\" | xargs -n 1 git branch -d
 [core]
 	pager = delta
 [diff]
