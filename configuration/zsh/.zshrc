@@ -54,6 +54,8 @@ export PATH="/opt/homebrew/opt/rustup/bin:$PATH"
 # User-specific scripts and programs
 export PATH="$HOME/bin:$PATH"
 
+export PATH="$HOME/pony/bin:$PATH"
+
 # Remove one or more docker images
 drmi() {
   local query="${1:-}"
